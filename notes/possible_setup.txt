@@ -1,0 +1,42 @@
+abstract
+
+introduction(cleaning/normalization/transformation/feature extraction for different domains)
+
+related publications
+
+methods
+ - deseasonalization (maybe together with wavelet)
+ - feature engineering (maybe)
+ - input window size for prediction (last 3/4/5 steps)
+ - different wavelet transforms, denoising through discrete wavelet transform, feature engineering with wavelets, 
+    scaleogramm with wavelet transform(timeseries classification to image classification)
+ - used models:
+  - cnn, rnn, random forest, gradient boosting classifier, NN, 
+
+datasets
+ - Human Activity Recognition for classification
+ - another for prediction
+ 
+results/experiments
+classification:
+ - first step is noise reduction for all models
+ - for cnn classification use spectrogramm from Continous Wavelet Transform
+  - variations in continous wavelet base as preprocessing variation
+ - others could use a sub-band analysis from a Discrete Wavelet Transform, extract features from all the sub-bands for classification
+ - possible models: gradient boosting, logistic regression for classification, nearest neighbor, random forest, NN
+  - variations in wavelet base for DWT and which features are selected
+ 
+prediction:
+ - everything on timeseries, use different bases for DWT to denoise the timeseries
+ - try prediction for each sub-band on the DWT split timeseries and then inverse the prediction
+ - possible models:
+  - rnn, cnn, gradient boosting regression, random forest
+ 
+measurements:
+ - distribution over all variations of preprocessing for each model, show boxplot/range for each model
+ - plots per model, plots per preprocessing
+ - maybe if not too (time) expensive: (measure over a 5-fold cross-validation for each preprocessing variation, take the average as value for preprocessing/model combination)
+                               else take 1 single measurement for each combination
+                               split for training/test before applying preprocessing
+
+conclusion

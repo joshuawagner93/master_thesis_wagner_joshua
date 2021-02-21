@@ -1,0 +1,49 @@
+preprocessing: (Kotsiantis et al.)
+              - data cleaning
+              - normalization
+              - transformation
+              - feature extraction
+
+sensors: (acceleration data)
+	- raw plot, multi channel, spectrogram
+	- spectrogram and shallow features
+  
+feature selection: the optimal subset is relative to a certain evaluation function
+
+split data into distinct variants:
+  - timeseries (e.g. fin. data, audio, acceleration data, etc.) [RNNS etc.]
+  - images [CNNs etc.]
+  - text (different feature extraction methods: parsing, NER, stemming, etc.) [RNNs, Transformers, etc.]
+  - "normal" data: cont. or discrete, as additional shallow data (Age of a person/firm)
+  
+
+Images:
+  - translations
+  - centering
+  - rotations
+  - elastic deformation
+  - combinations of the above
+    - generally goes to data augmentation
+  
+  - Papers:
+    - "A snapshot of image pre-processing for convolutional neural networks: case study of MNIST"
+    - "Enhancing the Performance of Convolutional Neural Networks on Quality Degraded Datasets"
+    - 
+  
+Text:
+  - NER for feature extraction (ML)
+  - POS for feature extraction (ML)
+  - Stemming/Lemmatization for deep models
+  - lowercasing
+  - multiword grouping
+    - design choices for embedding algorithms (with their own hyperparameters) which are part of preprocessing
+    
+  
+Timeseries:
+  - combination of variables (dependent on the field and on prior knowledge)
+  - fourier transformation to check for frequency, used for periodicity cleaning
+  - train, validation, test splits (70,20,10)
+  - normalization
+  - window size for inputs
+  - continous- and discrete-wavelet-transformation
+

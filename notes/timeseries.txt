@@ -1,0 +1,20 @@
+practical part:
+ - machine learning models:
+  - random forest
+  - gradient boosting classifier
+ - cnn
+ - rnn (single shot, predict everything at once)
+ - residual nets
+ - ar rnn (output back as input)
+ 
+wavelet:
+ - CNN on the spectrogramm from the continous-wavelet-transformation
+ - different features extrated through discrete-wavelet-transformation
+  - usefull for different classification models
+ - DWT to smooth the timeseries before feeding it to a RNN etc.
+ - DWT, then run an RNN on the different timeseries and then run the inverse on the prediction
+ 
+
+dataset: (maybe)
+ - M series competition
+ - HAR dataset
