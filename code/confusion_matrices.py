@@ -16,13 +16,14 @@ import random as rn
 import itertools
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import plot_confusion_matrix
+import seaborn as sns
+from sklearn.metrics import confusion_matrix, classification_report
 from joblib import dump, load
 
 np.random.seed(42)
 rn.seed(42)
 tf.random.set_seed(42)
+
 
 def plt_confusion_matrix(cm, classes,
                         normalize=False,
@@ -56,7 +57,14 @@ def plt_confusion_matrix(cm, classes,
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
     plt.tight_layout()
-
+    
+    
+def test_plt_conf(cm, classes):
+    # somehow 45 degree rotations are a no go for so many labels on the x axis
+    ax = sns.heatmap(cm, annot=True, cmap='Blues', fmt="d",linewidths=.5)
+    ax.set_xticklabels(classes,rotation=90)
+    ax.set_yticklabels(classes, rotation=0)
+    plt.tight_layout()
 
 
 def plot_cwt_confusion(denoise_dwt_wavelet, denoise_thresh, cwt_wavelet, cwt_scale):
@@ -72,12 +80,14 @@ def plot_cwt_confusion(denoise_dwt_wavelet, denoise_thresh, cwt_wavelet, cwt_sca
     print("read neccessary components, now predicting")
     test_pred = test_model.predict(x_test, verbose=0)
     predictions= np.argmax(test_pred, axis=1)
-    true_test = np.argmax(y_test,axis=1) 
+    true_test = np.argmax(y_test,axis=1)
     conf_matrix = confusion_matrix(y_true=true_test, y_pred=predictions)
-    y_classes = ["WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING",
-                 "STANDING", "LAYING", "STAND_TO_SIT", "SIT_TO_STAND", "SIT_TO_LIE",
-                 "LIE_TO_SIT", "STAND_TO_LIE", "LIE_TO_STAND"]
-    plt_confusion_matrix(cm=conf_matrix, classes = y_classes)
+    y_classes = ["WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING",
+                 "STANDING", "LAYING", "STAND TO SIT", "SIT TO STAND", "SIT TO LIE",
+                 "LIE TO SIT", "STAND TO LIE", "LIE TO STAND"]
+    print(classification_report(true_test, predictions, target_names=y_classes))
+    test_plt_conf(cm=conf_matrix, classes = y_classes)
+
 
 # best cwt cnn model    
 plot_cwt_confusion(denoise_dwt_wavelet="noisy", denoise_thresh=0.2, cwt_wavelet="morl", cwt_scale=128)
@@ -102,10 +112,11 @@ def plot_ts_confusion(denoise_dwt_wavelet, denoise_thresh, subband_dwt, model_ty
     predictions= np.argmax(test_pred, axis=1)
     true_test = np.argmax(y_test,axis=1) 
     conf_matrix = confusion_matrix(y_true=true_test, y_pred=predictions)
-    y_classes = ["WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING",
-                 "STANDING", "LAYING", "STAND_TO_SIT", "SIT_TO_STAND", "SIT_TO_LIE",
-                 "LIE_TO_SIT", "STAND_TO_LIE", "LIE_TO_STAND"]
-    plt_confusion_matrix(cm=conf_matrix, classes = y_classes)
+    y_classes = ["WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING",
+                 "STANDING", "LAYING", "STAND TO SIT", "SIT TO STAND", "SIT TO LIE",
+                 "LIE TO SIT", "STAND TO LIE", "LIE TO STAND"]
+    print(classification_report(true_test, predictions, target_names=y_classes))
+    test_plt_conf(cm=conf_matrix, classes = y_classes)
     
 # best ts model
 plot_ts_confusion(denoise_dwt_wavelet = "median",denoise_thresh="0.2",subband_dwt="haar",model_type="nn") # comparable to the cwt cnn model
@@ -145,10 +156,11 @@ def plot_feat_confusion(denoise_dwt_wavelet, denoise_thresh, subband_dwt, model_
     
     
     conf_matrix = confusion_matrix(y_true=true_test, y_pred=predictions)
-    y_classes = ["WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING",
-                 "STANDING", "LAYING", "STAND_TO_SIT", "SIT_TO_STAND", "SIT_TO_LIE",
-                 "LIE_TO_SIT", "STAND_TO_LIE", "LIE_TO_STAND"]
-    plt_confusion_matrix(cm=conf_matrix, classes = y_classes)
+    y_classes = ["WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING",
+                 "STANDING", "LAYING", "STAND TO SIT", "SIT TO STAND", "SIT TO LIE",
+                 "LIE TO SIT", "STAND TO LIE", "LIE TO STAND"]
+    print(classification_report(true_test, predictions, target_names=y_classes))
+    test_plt_conf(cm=conf_matrix, classes = y_classes)
 
 # best feat model, actually decent results for the transitional motions, in transition outperforms the cwt cnn
 plot_feat_confusion(denoise_dwt_wavelet = "noisy",denoise_thresh="0.2",subband_dwt="sym4",model_type="gbc")
@@ -186,10 +198,11 @@ def plot_org_feat_confusion(model_type):
     
     
     conf_matrix = confusion_matrix(y_true=true_test, y_pred=predictions)
-    y_classes = ["WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING",
-                 "STANDING", "LAYING", "STAND_TO_SIT", "SIT_TO_STAND", "SIT_TO_LIE",
-                 "LIE_TO_SIT", "STAND_TO_LIE", "LIE_TO_STAND"]
-    plt_confusion_matrix(cm=conf_matrix, classes = y_classes, title = "org. features model")
+    y_classes = ["WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING",
+                 "STANDING", "LAYING", "STAND TO SIT", "SIT TO STAND", "SIT TO LIE",
+                 "LIE TO SIT", "STAND TO LIE", "LIE TO STAND"]
+    print(classification_report(true_test, predictions, target_names=y_classes))
+    test_plt_conf(cm=conf_matrix, classes = y_classes, title = "org. features model")
 
 plot_org_feat_confusion("logreg")
 #plt.savefig("../masters_thesis/images/multinom_confusion.pdf")
