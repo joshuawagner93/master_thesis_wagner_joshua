@@ -2,7 +2,13 @@ code/uci_har_cwt_cnn_models/processed_data/
 code/uci_har_ts_models/processed_data/
 code/uci_har_feat_models/processed_data/
 code/uci_har_original_feat_models/processed_data/
-datasets/
+datasets/m4/train/*.csv
+datasets/m4/test/*.csv
+datasets/uci_har/v1/
+datasets/uci_har/v2/RawData/
+datasets/uci_har/v2/Test/
+datasets/uci_har/v2/Train/
+datasets/uci_har/v2/*.txt
 **.h5
 **.joblib
 **.npz
