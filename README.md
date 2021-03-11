@@ -1,13 +1,13 @@
 # master_thesis_wagner_joshua
 
-First installation:
+## First installation:
  - with pip: pip install -r requirements.txt
  - with conda: either:
     - conda create --name <env_name> --file conda_requirements.txt
     - conda env create -f environment.yml
  - the conda create from environment.yml file contains the env name, in my case the base environment, change this to any name you want so it won't mess with your base env.
 
-!!! Original Datasets are zipped for upload !!! 
+### !!! Original Datasets are zipped for upload !!! 
 
 Datasets in ./datasets/m4/train , ./datasets/m4/test and ./datasets/uci_har/v2 will need to be unzipped before any code requiring the original data can be run.
 This includes models if the saved preprocessed data is not available. The different models will use the same preprocessed data if it is available in ./code/**/processed_data .
