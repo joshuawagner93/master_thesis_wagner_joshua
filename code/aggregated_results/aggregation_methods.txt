@@ -1,0 +1,12 @@
+aggregations:
+  - by model
+  - by preprocessing variation
+  - deeper look per major preprocessing
+
+metrics:
+  - interquartile distance, median
+  - boxplots
+  - mean unusable due to outliers
+
+
+examine bad models where they fail

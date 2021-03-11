@@ -673,7 +673,7 @@ def m4_multires_variations(model_type, wavelet="db4", level=1):
             print('Test sMAPE: {}'.format(test_smape))
             
             result_dataframe = pd.DataFrame(np.array([[val_rmse, val_smape],[test_rmse, test_smape]]), columns = ["RMSE", "SMAPE"],index = ["val","test"])
-            result_path = "./m4_ts_models/results/" + model_path_name + ".csv"
+            result_path = "./m4_multires_models/results/" + model_path_name + ".csv"
             result_dataframe.to_csv(result_path)
             print("saved results for model: " + model_path_name)
             
@@ -820,7 +820,7 @@ def m4_multires_variations(model_type, wavelet="db4", level=1):
             print('Test sMAPE: {}'.format(test_smape))
             
             result_dataframe = pd.DataFrame(np.array([[val_rmse, val_smape],[test_rmse, test_smape]]), columns = ["RMSE", "SMAPE"],index = ["val","test"])
-            result_path = "./m4_ts_models/results/" + model_path_name + ".csv"
+            result_path = "./m4_multires_models/results/" + model_path_name + ".csv"
             result_dataframe.to_csv(result_path)
             print("saved results for model: " + model_path_name)
             

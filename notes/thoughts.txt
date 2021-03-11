@@ -18,4 +18,8 @@ prediction/forecasting:
 results:
   - explorative analysis if the "bad" models classify the same easy to classify data and don't perform on the bad data or if they are just worse
   
-  
+
+compress all saved models with:
+- ML models: joblib.dump(compress=True)
+- data: np.savez_compressed()
+- dl: 

@@ -34,6 +34,7 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 # 3 wavelets for noise filtering, 6 for subband and 6 sklearn models (108 versions) take ~8.4 hours
 
+# models with the original features
 model_type = ["nn","svc","rfc","dtc","knc","gbc","kerasnn","logreg"]
 start_time = time.time()
 for i in model_type:
