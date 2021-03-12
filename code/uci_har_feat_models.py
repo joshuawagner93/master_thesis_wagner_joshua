@@ -12,6 +12,7 @@ import time
 data_path = "../datasets/uci_har/v2/RawData/"
 #discrete_wavelet = ["noisy","median","haar","db4","dmey","sym4","coif4"]
 discrete_wavelet = ["median"]
+#disc_thresh = [0.2,0.3]
 disc_thresh  = 0.2
 window_size = 128
 #subband_dwt_wavelet = ["none","haar","db4","dmey","sym4","coif4"]

@@ -94,7 +94,7 @@ plot_cwt_confusion(denoise_dwt_wavelet="noisy", denoise_thresh=0.2, cwt_wavelet=
 
 # worst cwt cnn model
 plot_cwt_confusion(denoise_dwt_wavelet="haar", denoise_thresh=0.3, cwt_wavelet="mexh", cwt_scale=128)
-#plt.savefig("../masters_thesis/images/cwt_cnn_worst_conf.pdf")
+plt.savefig("../masters_thesis/images/cwt_cnn_worst_conf.pdf")
 
 def plot_ts_confusion(denoise_dwt_wavelet, denoise_thresh, subband_dwt, model_type):
     model_path_name = denoise_dwt_wavelet + "_" + str(denoise_thresh) + "_" + str(128) + subband_dwt + "_" + model_type
@@ -202,9 +202,10 @@ def plot_org_feat_confusion(model_type):
                  "STANDING", "LAYING", "STAND TO SIT", "SIT TO STAND", "SIT TO LIE",
                  "LIE TO SIT", "STAND TO LIE", "LIE TO STAND"]
     print(classification_report(true_test, predictions, target_names=y_classes))
-    test_plt_conf(cm=conf_matrix, classes = y_classes, title = "org. features model")
+    test_plt_conf(cm=conf_matrix, classes = y_classes)
 
 plot_org_feat_confusion("logreg")
 #plt.savefig("../masters_thesis/images/multinom_confusion.pdf")
+
 plot_org_feat_confusion("svc")
 plot_org_feat_confusion("gbc")

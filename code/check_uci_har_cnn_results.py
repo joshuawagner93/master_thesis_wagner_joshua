@@ -51,6 +51,7 @@ pywt.wavelist(kind = "continuous")
 data_path = "../datasets/uci_har/v2/RawData/"
 #discrete_wavelet = ["noisy","median","haar","db4","dmey","sym4","coif4"]
 discrete_wavelet = ["dmey","sym4","coif4"]
+# disc_thresh = [0.2,0.3]
 disc_thresh  = 0.3
 window_size = 128
 #continuous_wavelet = ["morl","mexh","gaus2"]
