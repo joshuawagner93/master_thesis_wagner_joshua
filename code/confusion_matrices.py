@@ -8,7 +8,10 @@ Created on Tue Mar  9 15:24:08 2021
 # define path as is done in the har script
 # load models,data and get confusion matrices
 # for now take a look at the best and worst performing models per prep.
-# fucntion which reads a preprocessed data file and the corresponding models
+# function which reads a preprocessed data file and the corresponding models
+
+# careful: you will need a saved model for each of these confusion matrices,
+# models mostly won't be loaded to github as they can be quite large
 
 import numpy as np
 import keras

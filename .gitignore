@@ -14,3 +14,5 @@ datasets/uci_har/v2/*.txt
 **.npz
 code/.spyproject/*
 code/__pycache__/*
+code/compression_test/
+code/compression_tests.py
