@@ -16,3 +16,4 @@ code/.spyproject/*
 code/__pycache__/*
 code/compression_test/
 code/compression_tests.py
+notes/

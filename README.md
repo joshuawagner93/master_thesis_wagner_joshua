@@ -21,7 +21,14 @@ The code is run using the Spyder IDE and uses a spyder project in ./code/ so all
 If no new spyder project is initialized, an os.chdir() command will be necessary before running any other code.
 
 Results are also contained in the corresponding ./code/**/results/ folder.
+Here ** denotes the folder named after their dataset and preprocessing.
+For example: ./uci_har_feat_models/ contains all results, logs and models for models trained with features for the HAR dataset from uci
 Aggregated results can be found in the ./code/aggregated_results/ folder for either M4 or HAR.
+
+The models themselves are too large for the github repo and only available in the google drive version.
+Numerical variations in the training can lead the models to vary even if newly trained with the same code.
+Results with the github repo only are therefore not perfectly reproducible but should not vary too much from the results presented in the thesis.
+
 
 ### HAR scripts:
 
