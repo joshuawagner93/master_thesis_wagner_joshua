@@ -1,12 +1,14 @@
 # master_thesis_wagner_joshua
 
+
 ## First installation:
- - with pip: pip install -r requirements.txt
+ - with pip: pip install -r requirements.txt (fallback if no conda is used)
  - with conda: either:
-    - conda create --name <env_name> --file conda_requirements.txt
-    - conda env create -f environment.yml
- - the conda create from environment.yml file contains the env name conda_ma_wagner
- - conda create from environment.yml file is tested and should work on any windows machine
+    - conda create --name <env_name> --file conda_requirements.txt (does not work due to pip installs)
+    - conda env create -f environment.yml (windows version, only works on windows machines)
+    - conda env create -f environment_minimal.yml (bare-bones handmade version, should work regardless of os)
+  - the conda env create from .yml files are tested and should initialize a working environment
+  - the pip and conda install from requirements.txt does not work properly but contains all information needed to initialize
 
 ### !!! Original Datasets are zipped for upload !!! 
 
