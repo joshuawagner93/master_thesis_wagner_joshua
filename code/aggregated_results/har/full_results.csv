@@ -1,0 +1,1017 @@
+dwt_denoise_wavelet,dwt_threshold,cwt_wavelet,cwt_scale,test_acc,model,maj_prep,dwt_multi_wavelet
+Coiflets-4,0.2,Gaussian-2,128,0.9329268336296082,CNN,CWT,
+Coiflets-4,0.2,Gaussian-2,64,0.9247967600822448,CNN,CWT,
+Coiflets-4,0.2,Mexican Hat,128,0.9197154641151428,CNN,CWT,
+Coiflets-4,0.2,Mexican Hat,64,0.9171748161315918,CNN,CWT,
+Coiflets-4,0.2,Morlet,128,0.9319105744361876,CNN,CWT,
+Coiflets-4,0.2,Morlet,64,0.9197154641151428,CNN,CWT,
+Coiflets-4,0.3,Gaussian-2,128,0.8770325183868408,CNN,CWT,
+Coiflets-4,0.3,Gaussian-2,64,0.8993902206420898,CNN,CWT,
+Coiflets-4,0.3,Mexican Hat,128,0.8816056847572327,CNN,CWT,
+Coiflets-4,0.3,Mexican Hat,64,0.9105691313743592,CNN,CWT,
+Coiflets-4,0.3,Morlet,128,0.9034552574157716,CNN,CWT,
+Coiflets-4,0.3,Morlet,64,0.9181910753250122,CNN,CWT,
+Daubechies-4,0.2,Gaussian-2,128,0.9105691313743592,CNN,CWT,
+Daubechies-4,0.2,Gaussian-2,64,0.927845537662506,CNN,CWT,
+Daubechies-4,0.2,Mexican Hat,128,0.9161585569381714,CNN,CWT,
+Daubechies-4,0.2,Mexican Hat,64,0.9283536672592164,CNN,CWT,
+Daubechies-4,0.2,Morlet,128,0.9141260385513306,CNN,CWT,
+Daubechies-4,0.2,Morlet,64,0.9100610017776488,CNN,CWT,
+Daubechies-4,0.3,Gaussian-2,128,0.9222561120986938,CNN,CWT,
+Daubechies-4,0.3,Gaussian-2,64,0.9136179089546204,CNN,CWT,
+Daubechies-4,0.3,Mexican Hat,128,0.894817054271698,CNN,CWT,
+Daubechies-4,0.3,Mexican Hat,64,0.9009146094322203,CNN,CWT,
+Daubechies-4,0.3,Morlet,128,0.9181910753250122,CNN,CWT,
+Daubechies-4,0.3,Morlet,64,0.889735758304596,CNN,CWT,
+D.-Mey.,0.2,Gaussian-2,128,0.9120935201644896,CNN,CWT,
+D.-Mey.,0.2,Gaussian-2,64,0.8917682766914368,CNN,CWT,
+D.-Mey.,0.2,Mexican Hat,128,0.920223593711853,CNN,CWT,
+D.-Mey.,0.2,Mexican Hat,64,0.8943089246749878,CNN,CWT,
+D.-Mey.,0.2,Morlet,128,0.904979646205902,CNN,CWT,
+D.-Mey.,0.2,Morlet,64,0.9100610017776488,CNN,CWT,
+D.-Mey.,0.3,Gaussian-2,128,0.9126016497612,CNN,CWT,
+D.-Mey.,0.3,Gaussian-2,64,0.9146341681480408,CNN,CWT,
+D.-Mey.,0.3,Mexican Hat,128,0.9054877758026124,CNN,CWT,
+D.-Mey.,0.3,Mexican Hat,64,0.915142297744751,CNN,CWT,
+D.-Mey.,0.3,Morlet,128,0.915142297744751,CNN,CWT,
+D.-Mey.,0.3,Morlet,64,0.9095528721809388,CNN,CWT,
+Haar,0.2,Gaussian-2,128,0.9034552574157716,CNN,CWT,
+Haar,0.2,Gaussian-2,64,0.9065040946006776,CNN,CWT,
+Haar,0.2,Mexican Hat,128,0.8851625919342041,CNN,CWT,
+Haar,0.2,Mexican Hat,64,0.9146341681480408,CNN,CWT,
+Haar,0.2,Morlet,128,0.9110772609710692,CNN,CWT,
+Haar,0.2,Morlet,64,0.9054877758026124,CNN,CWT,
+Haar,0.3,Gaussian-2,128,0.9141260385513306,CNN,CWT,
+Haar,0.3,Gaussian-2,64,0.889735758304596,CNN,CWT,
+Haar,0.3,Mexican Hat,128,0.8739837408065796,CNN,CWT,
+Haar,0.3,Mexican Hat,64,0.8826219439506531,CNN,CWT,
+Haar,0.3,Morlet,128,0.8927845358848572,CNN,CWT,
+Haar,0.3,Morlet,64,0.8810975551605225,CNN,CWT,
+Median,0.2,Gaussian-2,128,0.9456300735473632,CNN,CWT,
+Median,0.2,Gaussian-2,64,0.9253048896789552,CNN,CWT,
+Median,0.2,Mexican Hat,128,0.9242886304855348,CNN,CWT,
+Median,0.2,Mexican Hat,64,0.9354674816131592,CNN,CWT,
+Median,0.2,Morlet,128,0.9329268336296082,CNN,CWT,
+Median,0.2,Morlet,64,0.9451219439506532,CNN,CWT,
+none,0.2,Gaussian-2,128,0.9120935201644896,CNN,CWT,
+none,0.2,Gaussian-2,64,0.9491869807243348,CNN,CWT,
+none,0.2,Mexican Hat,128,0.9395325183868408,CNN,CWT,
+none,0.2,Mexican Hat,64,0.9415650367736816,CNN,CWT,
+none,0.2,Morlet,128,0.9542682766914368,CNN,CWT,
+none,0.2,Morlet,64,0.9339430928230286,CNN,CWT,
+Symlets-4,0.2,Gaussian-2,128,0.9192073345184326,CNN,CWT,
+Symlets-4,0.2,Gaussian-2,64,0.932418704032898,CNN,CWT,
+Symlets-4,0.2,Mexican Hat,128,0.9070122241973876,CNN,CWT,
+Symlets-4,0.2,Mexican Hat,64,0.927845537662506,CNN,CWT,
+Symlets-4,0.2,Morlet,128,0.9247967600822448,CNN,CWT,
+Symlets-4,0.2,Morlet,64,0.8938007950782776,CNN,CWT,
+Symlets-4,0.3,Gaussian-2,128,0.897357702255249,CNN,CWT,
+Symlets-4,0.3,Gaussian-2,64,0.9059959053993224,CNN,CWT,
+Symlets-4,0.3,Mexican Hat,128,0.9085366129875184,CNN,CWT,
+Symlets-4,0.3,Mexican Hat,64,0.9115853905677797,CNN,CWT,
+Symlets-4,0.3,Morlet,128,0.8953251838684082,CNN,CWT,
+Symlets-4,0.3,Morlet,64,0.894817054271698,CNN,CWT,
+Coiflets-4,0.2,,,0.897357702255249,Bi-RNN,Multiresolution,Coiflets-4
+Coiflets-4,0.2,,,0.9105691313743592,CNN,Multiresolution,Coiflets-4
+Coiflets-4,0.2,,,0.932418704032898,LSTM-CNN,Multiresolution,Coiflets-4
+Coiflets-4,0.2,,,0.8993902206420898,NN,Multiresolution,Coiflets-4
+Coiflets-4,0.2,,,0.7469512224197388,RNN,Multiresolution,Coiflets-4
+Coiflets-4,0.2,,,0.8912601470947266,Bi-RNN,Multiresolution,Daubechies-4
+Coiflets-4,0.2,,,0.9192073345184326,CNN,Multiresolution,Daubechies-4
+Coiflets-4,0.2,,,0.9161585569381714,LSTM-CNN,Multiresolution,Daubechies-4
+Coiflets-4,0.2,,,0.9217479825019836,NN,Multiresolution,Daubechies-4
+Coiflets-4,0.2,,,0.7688007950782776,RNN,Multiresolution,Daubechies-4
+Coiflets-4,0.2,,,0.9070122241973876,Bi-RNN,Multiresolution,D.-Mey.
+Coiflets-4,0.2,,,0.9207317233085632,CNN,Multiresolution,D.-Mey.
+Coiflets-4,0.2,,,0.9329268336296082,LSTM-CNN,Multiresolution,D.-Mey.
+Coiflets-4,0.2,,,0.9019308686256408,NN,Multiresolution,D.-Mey.
+Coiflets-4,0.2,,,0.7870935201644897,RNN,Multiresolution,D.-Mey.
+Coiflets-4,0.2,,,0.9014227390289308,Bi-RNN,Multiresolution,Haar
+Coiflets-4,0.2,,,0.9288617968559264,CNN,Multiresolution,Haar
+Coiflets-4,0.2,,,0.9222561120986938,LSTM-CNN,Multiresolution,Haar
+Coiflets-4,0.2,,,0.9308943152427672,NN,Multiresolution,Haar
+Coiflets-4,0.2,,,0.8556910753250122,RNN,Multiresolution,Haar
+Coiflets-4,0.2,,,0.8821138143539429,Bi-RNN,Multiresolution,none
+Coiflets-4,0.2,,,0.9161585569381714,CNN,Multiresolution,none
+Coiflets-4,0.2,,,0.9253048896789552,LSTM-CNN,Multiresolution,none
+Coiflets-4,0.2,,,0.9070122241973876,NN,Multiresolution,none
+Coiflets-4,0.2,,,0.8953251838684082,RNN,Multiresolution,none
+Coiflets-4,0.2,,,0.8943089246749878,Bi-RNN,Multiresolution,Symlets-4
+Coiflets-4,0.2,,,0.9258130192756652,CNN,Multiresolution,Symlets-4
+Coiflets-4,0.2,,,0.9232723712921144,LSTM-CNN,Multiresolution,Symlets-4
+Coiflets-4,0.2,,,0.9314024448394777,NN,Multiresolution,Symlets-4
+Coiflets-4,0.2,,,0.7251016497612,RNN,Multiresolution,Symlets-4
+Coiflets-4,0.3,,,0.8902438879013062,Bi-RNN,Multiresolution,Coiflets-4
+Coiflets-4,0.3,,,0.9059959053993224,CNN,Multiresolution,Coiflets-4
+Coiflets-4,0.3,,,0.904979646205902,LSTM-CNN,Multiresolution,Coiflets-4
+Coiflets-4,0.3,,,0.8755081295967102,NN,Multiresolution,Coiflets-4
+Coiflets-4,0.3,,,0.7378048896789551,RNN,Multiresolution,Coiflets-4
+Coiflets-4,0.3,,,0.8851625919342041,Bi-RNN,Multiresolution,Daubechies-4
+Coiflets-4,0.3,,,0.9136179089546204,CNN,Multiresolution,Daubechies-4
+Coiflets-4,0.3,,,0.8714430928230286,LSTM-CNN,Multiresolution,Daubechies-4
+Coiflets-4,0.3,,,0.9171748161315918,NN,Multiresolution,Daubechies-4
+Coiflets-4,0.3,,,0.7444105744361877,RNN,Multiresolution,Daubechies-4
+Coiflets-4,0.3,,,0.8983739614486694,Bi-RNN,Multiresolution,D.-Mey.
+Coiflets-4,0.3,,,0.9029471278190612,CNN,Multiresolution,D.-Mey.
+Coiflets-4,0.3,,,0.9070122241973876,LSTM-CNN,Multiresolution,D.-Mey.
+Coiflets-4,0.3,,,0.892276406288147,NN,Multiresolution,D.-Mey.
+Coiflets-4,0.3,,,0.7616869807243347,RNN,Multiresolution,D.-Mey.
+Coiflets-4,0.3,,,0.8912601470947266,Bi-RNN,Multiresolution,Haar
+Coiflets-4,0.3,,,0.9268292784690856,CNN,Multiresolution,Haar
+Coiflets-4,0.3,,,0.7947154641151428,LSTM-CNN,Multiresolution,Haar
+Coiflets-4,0.3,,,0.9207317233085632,NN,Multiresolution,Haar
+Coiflets-4,0.3,,,0.8541666865348816,RNN,Multiresolution,Haar
+Coiflets-4,0.3,,,0.8678861856460571,Bi-RNN,Multiresolution,none
+Coiflets-4,0.3,,,0.9059959053993224,CNN,Multiresolution,none
+Coiflets-4,0.3,,,0.9247967600822448,LSTM-CNN,Multiresolution,none
+Coiflets-4,0.3,,,0.8653455376625061,NN,Multiresolution,none
+Coiflets-4,0.3,,,0.8582317233085632,RNN,Multiresolution,none
+Coiflets-4,0.3,,,0.8689024448394775,Bi-RNN,Multiresolution,Symlets-4
+Coiflets-4,0.3,,,0.9131097793579102,CNN,Multiresolution,Symlets-4
+Coiflets-4,0.3,,,0.9186992049217224,LSTM-CNN,Multiresolution,Symlets-4
+Coiflets-4,0.3,,,0.9105691313743592,NN,Multiresolution,Symlets-4
+Coiflets-4,0.3,,,0.6595528721809387,RNN,Multiresolution,Symlets-4
+Daubechies-4,0.2,,,0.8927845358848572,Bi-RNN,Multiresolution,Coiflets-4
+Daubechies-4,0.2,,,0.9059959053993224,CNN,Multiresolution,Coiflets-4
+Daubechies-4,0.2,,,0.9385162591934204,LSTM-CNN,Multiresolution,Coiflets-4
+Daubechies-4,0.2,,,0.8932926654815674,NN,Multiresolution,Coiflets-4
+Daubechies-4,0.2,,,0.7545731663703918,RNN,Multiresolution,Coiflets-4
+Daubechies-4,0.2,,,0.8846544623374939,Bi-RNN,Multiresolution,Daubechies-4
+Daubechies-4,0.2,,,0.9171748161315918,CNN,Multiresolution,Daubechies-4
+Daubechies-4,0.2,,,0.8978658318519592,LSTM-CNN,Multiresolution,Daubechies-4
+Daubechies-4,0.2,,,0.9100610017776488,NN,Multiresolution,Daubechies-4
+Daubechies-4,0.2,,,0.7759146094322205,RNN,Multiresolution,Daubechies-4
+Daubechies-4,0.2,,,0.894817054271698,Bi-RNN,Multiresolution,D.-Mey.
+Daubechies-4,0.2,,,0.9126016497612,CNN,Multiresolution,D.-Mey.
+Daubechies-4,0.2,,,0.9237805008888244,LSTM-CNN,Multiresolution,D.-Mey.
+Daubechies-4,0.2,,,0.8892276287078857,NN,Multiresolution,D.-Mey.
+Daubechies-4,0.2,,,0.7860772609710693,RNN,Multiresolution,D.-Mey.
+Daubechies-4,0.2,,,0.9207317233085632,Bi-RNN,Multiresolution,Haar
+Daubechies-4,0.2,,,0.9242886304855348,CNN,Multiresolution,Haar
+Daubechies-4,0.2,,,0.9405487775802612,LSTM-CNN,Multiresolution,Haar
+Daubechies-4,0.2,,,0.9217479825019836,NN,Multiresolution,Haar
+Daubechies-4,0.2,,,0.8267276287078857,RNN,Multiresolution,Haar
+Daubechies-4,0.2,,,0.869918704032898,Bi-RNN,Multiresolution,none
+Daubechies-4,0.2,,,0.9192073345184326,CNN,Multiresolution,none
+Daubechies-4,0.2,,,0.9263211488723756,LSTM-CNN,Multiresolution,none
+Daubechies-4,0.2,,,0.9065040946006776,NN,Multiresolution,none
+Daubechies-4,0.2,,,0.9039633870124816,RNN,Multiresolution,none
+Daubechies-4,0.2,,,0.8887194991111755,Bi-RNN,Multiresolution,Symlets-4
+Daubechies-4,0.2,,,0.9131097793579102,CNN,Multiresolution,Symlets-4
+Daubechies-4,0.2,,,0.9126016497612,LSTM-CNN,Multiresolution,Symlets-4
+Daubechies-4,0.2,,,0.9192073345184326,NN,Multiresolution,Symlets-4
+Daubechies-4,0.2,,,0.6869918704032898,RNN,Multiresolution,Symlets-4
+Daubechies-4,0.3,,,0.8841463327407837,Bi-RNN,Multiresolution,Coiflets-4
+Daubechies-4,0.3,,,0.897357702255249,CNN,Multiresolution,Coiflets-4
+Daubechies-4,0.3,,,0.9161585569381714,LSTM-CNN,Multiresolution,Coiflets-4
+Daubechies-4,0.3,,,0.8841463327407837,NN,Multiresolution,Coiflets-4
+Daubechies-4,0.3,,,0.7296748161315918,RNN,Multiresolution,Coiflets-4
+Daubechies-4,0.3,,,0.869918704032898,Bi-RNN,Multiresolution,Daubechies-4
+Daubechies-4,0.3,,,0.9070122241973876,CNN,Multiresolution,Daubechies-4
+Daubechies-4,0.3,,,0.9105691313743592,LSTM-CNN,Multiresolution,Daubechies-4
+Daubechies-4,0.3,,,0.9059959053993224,NN,Multiresolution,Daubechies-4
+Daubechies-4,0.3,,,0.7372967600822449,RNN,Multiresolution,Daubechies-4
+Daubechies-4,0.3,,,0.9009146094322203,Bi-RNN,Multiresolution,D.-Mey.
+Daubechies-4,0.3,,,0.9222561120986938,CNN,Multiresolution,D.-Mey.
+Daubechies-4,0.3,,,0.9029471278190612,LSTM-CNN,Multiresolution,D.-Mey.
+Daubechies-4,0.3,,,0.8739837408065796,NN,Multiresolution,D.-Mey.
+Daubechies-4,0.3,,,0.7494918704032898,RNN,Multiresolution,D.-Mey.
+Daubechies-4,0.3,,,0.8790650367736816,Bi-RNN,Multiresolution,Haar
+Daubechies-4,0.3,,,0.9120935201644896,CNN,Multiresolution,Haar
+Daubechies-4,0.3,,,0.9110772609710692,LSTM-CNN,Multiresolution,Haar
+Daubechies-4,0.3,,,0.9237805008888244,NN,Multiresolution,Haar
+Daubechies-4,0.3,,,0.8328251838684082,RNN,Multiresolution,Haar
+Daubechies-4,0.3,,,0.8704268336296082,Bi-RNN,Multiresolution,none
+Daubechies-4,0.3,,,0.8983739614486694,CNN,Multiresolution,none
+Daubechies-4,0.3,,,0.8546748161315918,LSTM-CNN,Multiresolution,none
+Daubechies-4,0.3,,,0.8785569071769714,NN,Multiresolution,none
+Daubechies-4,0.3,,,0.880081295967102,RNN,Multiresolution,none
+Daubechies-4,0.3,,,0.8836382031440735,Bi-RNN,Multiresolution,Symlets-4
+Daubechies-4,0.3,,,0.904979646205902,CNN,Multiresolution,Symlets-4
+Daubechies-4,0.3,,,0.8826219439506531,LSTM-CNN,Multiresolution,Symlets-4
+Daubechies-4,0.3,,,0.908028483390808,NN,Multiresolution,Symlets-4
+Daubechies-4,0.3,,,0.6631097793579102,RNN,Multiresolution,Symlets-4
+D.-Mey.,0.2,,,0.8983739614486694,Bi-RNN,Multiresolution,Coiflets-4
+D.-Mey.,0.2,,,0.917682945728302,CNN,Multiresolution,Coiflets-4
+D.-Mey.,0.2,,,0.9319105744361876,LSTM-CNN,Multiresolution,Coiflets-4
+D.-Mey.,0.2,,,0.8628048896789551,NN,Multiresolution,Coiflets-4
+D.-Mey.,0.2,,,0.7413617968559265,RNN,Multiresolution,Coiflets-4
+D.-Mey.,0.2,,,0.8734756112098694,Bi-RNN,Multiresolution,Daubechies-4
+D.-Mey.,0.2,,,0.9207317233085632,CNN,Multiresolution,Daubechies-4
+D.-Mey.,0.2,,,0.9156504273414612,LSTM-CNN,Multiresolution,Daubechies-4
+D.-Mey.,0.2,,,0.9217479825019836,NN,Multiresolution,Daubechies-4
+D.-Mey.,0.2,,,0.7662601470947266,RNN,Multiresolution,Daubechies-4
+D.-Mey.,0.2,,,0.892276406288147,Bi-RNN,Multiresolution,D.-Mey.
+D.-Mey.,0.2,,,0.9156504273414612,CNN,Multiresolution,D.-Mey.
+D.-Mey.,0.2,,,0.9375,LSTM-CNN,Multiresolution,D.-Mey.
+D.-Mey.,0.2,,,0.8663617968559265,NN,Multiresolution,D.-Mey.
+D.-Mey.,0.2,,,0.7688007950782776,RNN,Multiresolution,D.-Mey.
+D.-Mey.,0.2,,,0.8988820910453796,Bi-RNN,Multiresolution,Haar
+D.-Mey.,0.2,,,0.9222561120986938,CNN,Multiresolution,Haar
+D.-Mey.,0.2,,,0.927337408065796,LSTM-CNN,Multiresolution,Haar
+D.-Mey.,0.2,,,0.927337408065796,NN,Multiresolution,Haar
+D.-Mey.,0.2,,,0.834857702255249,RNN,Multiresolution,Haar
+D.-Mey.,0.2,,,0.8780487775802612,Bi-RNN,Multiresolution,none
+D.-Mey.,0.2,,,0.9131097793579102,CNN,Multiresolution,none
+D.-Mey.,0.2,,,0.9217479825019836,LSTM-CNN,Multiresolution,none
+D.-Mey.,0.2,,,0.875,NN,Multiresolution,none
+D.-Mey.,0.2,,,0.8932926654815674,RNN,Multiresolution,none
+D.-Mey.,0.2,,,0.8968495726585388,Bi-RNN,Multiresolution,Symlets-4
+D.-Mey.,0.2,,,0.9181910753250122,CNN,Multiresolution,Symlets-4
+D.-Mey.,0.2,,,0.1463414579629898,LSTM-CNN,Multiresolution,Symlets-4
+D.-Mey.,0.2,,,0.9314024448394777,NN,Multiresolution,Symlets-4
+D.-Mey.,0.2,,,0.7057926654815674,RNN,Multiresolution,Symlets-4
+D.-Mey.,0.3,,,0.8816056847572327,Bi-RNN,Multiresolution,Coiflets-4
+D.-Mey.,0.3,,,0.9131097793579102,CNN,Multiresolution,Coiflets-4
+D.-Mey.,0.3,,,0.7693089246749878,LSTM-CNN,Multiresolution,Coiflets-4
+D.-Mey.,0.3,,,0.8704268336296082,NN,Multiresolution,Coiflets-4
+D.-Mey.,0.3,,,0.7169715166091919,RNN,Multiresolution,Coiflets-4
+D.-Mey.,0.3,,,0.8770325183868408,Bi-RNN,Multiresolution,Daubechies-4
+D.-Mey.,0.3,,,0.9085366129875184,CNN,Multiresolution,Daubechies-4
+D.-Mey.,0.3,,,0.8663617968559265,LSTM-CNN,Multiresolution,Daubechies-4
+D.-Mey.,0.3,,,0.9171748161315918,NN,Multiresolution,Daubechies-4
+D.-Mey.,0.3,,,0.7398374080657959,RNN,Multiresolution,Daubechies-4
+D.-Mey.,0.3,,,0.8785569071769714,Bi-RNN,Multiresolution,D.-Mey.
+D.-Mey.,0.3,,,0.8871951103210449,CNN,Multiresolution,D.-Mey.
+D.-Mey.,0.3,,,0.9054877758026124,LSTM-CNN,Multiresolution,D.-Mey.
+D.-Mey.,0.3,,,0.8821138143539429,NN,Multiresolution,D.-Mey.
+D.-Mey.,0.3,,,0.7555894255638123,RNN,Multiresolution,D.-Mey.
+D.-Mey.,0.3,,,0.8821138143539429,Bi-RNN,Multiresolution,Haar
+D.-Mey.,0.3,,,0.9171748161315918,CNN,Multiresolution,Haar
+D.-Mey.,0.3,,,0.8836382031440735,LSTM-CNN,Multiresolution,Haar
+D.-Mey.,0.3,,,0.9222561120986938,NN,Multiresolution,Haar
+D.-Mey.,0.3,,,0.7911585569381714,RNN,Multiresolution,Haar
+D.-Mey.,0.3,,,0.8582317233085632,Bi-RNN,Multiresolution,none
+D.-Mey.,0.3,,,0.9029471278190612,CNN,Multiresolution,none
+D.-Mey.,0.3,,,0.915142297744751,LSTM-CNN,Multiresolution,none
+D.-Mey.,0.3,,,0.8805894255638123,NN,Multiresolution,none
+D.-Mey.,0.3,,,0.8709349632263184,RNN,Multiresolution,none
+D.-Mey.,0.3,,,0.8694105744361877,Bi-RNN,Multiresolution,Symlets-4
+D.-Mey.,0.3,,,0.9186992049217224,CNN,Multiresolution,Symlets-4
+D.-Mey.,0.3,,,0.8856707215309143,LSTM-CNN,Multiresolution,Symlets-4
+D.-Mey.,0.3,,,0.8983739614486694,NN,Multiresolution,Symlets-4
+D.-Mey.,0.3,,,0.6636179089546204,RNN,Multiresolution,Symlets-4
+Haar,0.2,,,0.8841463327407837,Bi-RNN,Multiresolution,Coiflets-4
+Haar,0.2,,,0.8943089246749878,CNN,Multiresolution,Coiflets-4
+Haar,0.2,,,0.904471516609192,LSTM-CNN,Multiresolution,Coiflets-4
+Haar,0.2,,,0.894817054271698,NN,Multiresolution,Coiflets-4
+Haar,0.2,,,0.7317073345184326,RNN,Multiresolution,Coiflets-4
+Haar,0.2,,,0.8704268336296082,Bi-RNN,Multiresolution,Daubechies-4
+Haar,0.2,,,0.9161585569381714,CNN,Multiresolution,Daubechies-4
+Haar,0.2,,,0.9065040946006776,LSTM-CNN,Multiresolution,Daubechies-4
+Haar,0.2,,,0.917682945728302,NN,Multiresolution,Daubechies-4
+Haar,0.2,,,0.7825203537940979,RNN,Multiresolution,Daubechies-4
+Haar,0.2,,,0.8968495726585388,Bi-RNN,Multiresolution,D.-Mey.
+Haar,0.2,,,0.8978658318519592,CNN,Multiresolution,D.-Mey.
+Haar,0.2,,,0.908028483390808,LSTM-CNN,Multiresolution,D.-Mey.
+Haar,0.2,,,0.9009146094322203,NN,Multiresolution,D.-Mey.
+Haar,0.2,,,0.7535569071769714,RNN,Multiresolution,D.-Mey.
+Haar,0.2,,,0.8917682766914368,Bi-RNN,Multiresolution,Haar
+Haar,0.2,,,0.9207317233085632,CNN,Multiresolution,Haar
+Haar,0.2,,,0.9039633870124816,LSTM-CNN,Multiresolution,Haar
+Haar,0.2,,,0.9197154641151428,NN,Multiresolution,Haar
+Haar,0.2,,,0.817581295967102,RNN,Multiresolution,Haar
+Haar,0.2,,,0.8729674816131592,Bi-RNN,Multiresolution,none
+Haar,0.2,,,0.8887194991111755,CNN,Multiresolution,none
+Haar,0.2,,,0.908028483390808,LSTM-CNN,Multiresolution,none
+Haar,0.2,,,0.8694105744361877,NN,Multiresolution,none
+Haar,0.2,,,0.8734756112098694,RNN,Multiresolution,none
+Haar,0.2,,,0.8810975551605225,Bi-RNN,Multiresolution,Symlets-4
+Haar,0.2,,,0.9059959053993224,CNN,Multiresolution,Symlets-4
+Haar,0.2,,,0.8917682766914368,LSTM-CNN,Multiresolution,Symlets-4
+Haar,0.2,,,0.9034552574157716,NN,Multiresolution,Symlets-4
+Haar,0.2,,,0.7779471278190613,RNN,Multiresolution,Symlets-4
+Haar,0.3,,,0.8587398529052734,Bi-RNN,Multiresolution,Coiflets-4
+Haar,0.3,,,0.8709349632263184,CNN,Multiresolution,Coiflets-4
+Haar,0.3,,,0.9085366129875184,LSTM-CNN,Multiresolution,Coiflets-4
+Haar,0.3,,,0.8587398529052734,NN,Multiresolution,Coiflets-4
+Haar,0.3,,,0.7017276287078857,RNN,Multiresolution,Coiflets-4
+Haar,0.3,,,0.8328251838684082,Bi-RNN,Multiresolution,Daubechies-4
+Haar,0.3,,,0.8968495726585388,CNN,Multiresolution,Daubechies-4
+Haar,0.3,,,0.8805894255638123,LSTM-CNN,Multiresolution,Daubechies-4
+Haar,0.3,,,0.8810975551605225,NN,Multiresolution,Daubechies-4
+Haar,0.3,,,0.7560975551605225,RNN,Multiresolution,Daubechies-4
+Haar,0.3,,,0.7525406479835509,Bi-RNN,Multiresolution,D.-Mey.
+Haar,0.3,,,0.8760162591934204,CNN,Multiresolution,D.-Mey.
+Haar,0.3,,,0.8993902206420898,LSTM-CNN,Multiresolution,D.-Mey.
+Haar,0.3,,,0.8622967600822449,NN,Multiresolution,D.-Mey.
+Haar,0.3,,,0.7093495726585388,RNN,Multiresolution,D.-Mey.
+Haar,0.3,,,0.8455284833908081,Bi-RNN,Multiresolution,Haar
+Haar,0.3,,,0.9054877758026124,CNN,Multiresolution,Haar
+Haar,0.3,,,0.8221544623374939,LSTM-CNN,Multiresolution,Haar
+Haar,0.3,,,0.8719512224197388,NN,Multiresolution,Haar
+Haar,0.3,,,0.8033536672592163,RNN,Multiresolution,Haar
+Haar,0.3,,,0.8231707215309143,Bi-RNN,Multiresolution,none
+Haar,0.3,,,0.8810975551605225,CNN,Multiresolution,none
+Haar,0.3,,,0.8775406479835509,LSTM-CNN,Multiresolution,none
+Haar,0.3,,,0.8506097793579102,NN,Multiresolution,none
+Haar,0.3,,,0.8125,RNN,Multiresolution,none
+Haar,0.3,,,0.8318089246749878,Bi-RNN,Multiresolution,Symlets-4
+Haar,0.3,,,0.9004064798355103,CNN,Multiresolution,Symlets-4
+Haar,0.3,,,0.8932926654815674,LSTM-CNN,Multiresolution,Symlets-4
+Haar,0.3,,,0.8704268336296082,NN,Multiresolution,Symlets-4
+Haar,0.3,,,0.7581300735473633,RNN,Multiresolution,Symlets-4
+Median,0.2,,,0.9242886304855348,Bi-RNN,Multiresolution,Coiflets-4
+Median,0.2,,,0.9141260385513306,CNN,Multiresolution,Coiflets-4
+Median,0.2,,,0.9359756112098694,LSTM-CNN,Multiresolution,Coiflets-4
+Median,0.2,,,0.9146341681480408,NN,Multiresolution,Coiflets-4
+Median,0.2,,,0.9054877758026124,RNN,Multiresolution,Coiflets-4
+Median,0.2,,,0.8983739614486694,Bi-RNN,Multiresolution,Daubechies-4
+Median,0.2,,,0.9298780560493468,CNN,Multiresolution,Daubechies-4
+Median,0.2,,,0.922764241695404,LSTM-CNN,Multiresolution,Daubechies-4
+Median,0.2,,,0.9400406479835509,NN,Multiresolution,Daubechies-4
+Median,0.2,,,0.8998983502388,RNN,Multiresolution,Daubechies-4
+Median,0.2,,,0.904979646205902,Bi-RNN,Multiresolution,D.-Mey.
+Median,0.2,,,0.9375,CNN,Multiresolution,D.-Mey.
+Median,0.2,,,0.927845537662506,LSTM-CNN,Multiresolution,D.-Mey.
+Median,0.2,,,0.9359756112098694,NN,Multiresolution,D.-Mey.
+Median,0.2,,,0.8978658318519592,RNN,Multiresolution,D.-Mey.
+Median,0.2,,,0.9171748161315918,Bi-RNN,Multiresolution,Haar
+Median,0.2,,,0.9395325183868408,CNN,Multiresolution,Haar
+Median,0.2,,,0.9400406479835509,LSTM-CNN,Multiresolution,Haar
+Median,0.2,,,0.952235758304596,NN,Multiresolution,Haar
+Median,0.2,,,0.8988820910453796,RNN,Multiresolution,Haar
+Median,0.2,,,0.9039633870124816,Bi-RNN,Multiresolution,none
+Median,0.2,,,0.9019308686256408,CNN,Multiresolution,none
+Median,0.2,,,0.9237805008888244,LSTM-CNN,Multiresolution,none
+Median,0.2,,,0.9415650367736816,NN,Multiresolution,none
+Median,0.2,,,0.9268292784690856,RNN,Multiresolution,none
+Median,0.2,,,0.9197154641151428,Bi-RNN,Multiresolution,Symlets-4
+Median,0.2,,,0.927337408065796,CNN,Multiresolution,Symlets-4
+Median,0.2,,,0.922764241695404,LSTM-CNN,Multiresolution,Symlets-4
+Median,0.2,,,0.9349593520164491,NN,Multiresolution,Symlets-4
+Median,0.2,,,0.7311992049217224,RNN,Multiresolution,Symlets-4
+none,0.2,,,0.9253048896789552,Bi-RNN,Multiresolution,Coiflets-4
+none,0.2,,,0.9354674816131592,CNN,Multiresolution,Coiflets-4
+none,0.2,,,0.908028483390808,LSTM-CNN,Multiresolution,Coiflets-4
+none,0.2,,,0.9390243887901306,NN,Multiresolution,Coiflets-4
+none,0.2,,,0.908028483390808,RNN,Multiresolution,Coiflets-4
+none,0.2,,,0.9115853905677797,Bi-RNN,Multiresolution,Daubechies-4
+none,0.2,,,0.9283536672592164,CNN,Multiresolution,Daubechies-4
+none,0.2,,,0.9400406479835509,LSTM-CNN,Multiresolution,Daubechies-4
+none,0.2,,,0.9415650367736816,NN,Multiresolution,Daubechies-4
+none,0.2,,,0.9146341681480408,RNN,Multiresolution,Daubechies-4
+none,0.2,,,0.9110772609710692,Bi-RNN,Multiresolution,D.-Mey.
+none,0.2,,,0.9298780560493468,CNN,Multiresolution,D.-Mey.
+none,0.2,,,0.9354674816131592,LSTM-CNN,Multiresolution,D.-Mey.
+none,0.2,,,0.9420731663703918,NN,Multiresolution,D.-Mey.
+none,0.2,,,0.9298780560493468,RNN,Multiresolution,D.-Mey.
+none,0.2,,,0.9146341681480408,Bi-RNN,Multiresolution,Haar
+none,0.2,,,0.9354674816131592,CNN,Multiresolution,Haar
+none,0.2,,,0.9507113695144652,LSTM-CNN,Multiresolution,Haar
+none,0.2,,,0.9486788511276244,NN,Multiresolution,Haar
+none,0.2,,,0.9019308686256408,RNN,Multiresolution,Haar
+none,0.2,,,0.9059959053993224,Bi-RNN,Multiresolution,none
+none,0.2,,,0.9105691313743592,CNN,Multiresolution,none
+none,0.2,,,0.9369918704032898,LSTM-CNN,Multiresolution,none
+none,0.2,,,0.9314024448394777,NN,Multiresolution,none
+none,0.2,,,0.9085366129875184,RNN,Multiresolution,none
+none,0.2,,,0.9009146094322203,Bi-RNN,Multiresolution,Symlets-4
+none,0.2,,,0.927337408065796,CNN,Multiresolution,Symlets-4
+none,0.2,,,0.9461382031440736,LSTM-CNN,Multiresolution,Symlets-4
+none,0.2,,,0.9446138143539428,NN,Multiresolution,Symlets-4
+none,0.2,,,0.904979646205902,RNN,Multiresolution,Symlets-4
+Symlets-4,0.2,,,0.8902438879013062,Bi-RNN,Multiresolution,Coiflets-4
+Symlets-4,0.2,,,0.9171748161315918,CNN,Multiresolution,Coiflets-4
+Symlets-4,0.2,,,0.9126016497612,LSTM-CNN,Multiresolution,Coiflets-4
+Symlets-4,0.2,,,0.9034552574157716,NN,Multiresolution,Coiflets-4
+Symlets-4,0.2,,,0.7494918704032898,RNN,Multiresolution,Coiflets-4
+Symlets-4,0.2,,,0.8998983502388,Bi-RNN,Multiresolution,Daubechies-4
+Symlets-4,0.2,,,0.9171748161315918,CNN,Multiresolution,Daubechies-4
+Symlets-4,0.2,,,0.904979646205902,LSTM-CNN,Multiresolution,Daubechies-4
+Symlets-4,0.2,,,0.9314024448394777,NN,Multiresolution,Daubechies-4
+Symlets-4,0.2,,,0.7759146094322205,RNN,Multiresolution,Daubechies-4
+Symlets-4,0.2,,,0.9095528721809388,Bi-RNN,Multiresolution,D.-Mey.
+Symlets-4,0.2,,,0.927337408065796,CNN,Multiresolution,D.-Mey.
+Symlets-4,0.2,,,0.917682945728302,LSTM-CNN,Multiresolution,D.-Mey.
+Symlets-4,0.2,,,0.8866869807243347,NN,Multiresolution,D.-Mey.
+Symlets-4,0.2,,,0.7870935201644897,RNN,Multiresolution,D.-Mey.
+Symlets-4,0.2,,,0.9014227390289308,Bi-RNN,Multiresolution,Haar
+Symlets-4,0.2,,,0.9242886304855348,CNN,Multiresolution,Haar
+Symlets-4,0.2,,,0.917682945728302,LSTM-CNN,Multiresolution,Haar
+Symlets-4,0.2,,,0.9339430928230286,NN,Multiresolution,Haar
+Symlets-4,0.2,,,0.8709349632263184,RNN,Multiresolution,Haar
+Symlets-4,0.2,,,0.8831300735473633,Bi-RNN,Multiresolution,none
+Symlets-4,0.2,,,0.9217479825019836,CNN,Multiresolution,none
+Symlets-4,0.2,,,0.9263211488723756,LSTM-CNN,Multiresolution,none
+Symlets-4,0.2,,,0.8785569071769714,NN,Multiresolution,none
+Symlets-4,0.2,,,0.9009146094322203,RNN,Multiresolution,none
+Symlets-4,0.2,,,0.894817054271698,Bi-RNN,Multiresolution,Symlets-4
+Symlets-4,0.2,,,0.917682945728302,CNN,Multiresolution,Symlets-4
+Symlets-4,0.2,,,0.8846544623374939,LSTM-CNN,Multiresolution,Symlets-4
+Symlets-4,0.2,,,0.9192073345184326,NN,Multiresolution,Symlets-4
+Symlets-4,0.2,,,0.690040647983551,RNN,Multiresolution,Symlets-4
+Symlets-4,0.3,,,0.8734756112098694,Bi-RNN,Multiresolution,Coiflets-4
+Symlets-4,0.3,,,0.9009146094322203,CNN,Multiresolution,Coiflets-4
+Symlets-4,0.3,,,0.8689024448394775,LSTM-CNN,Multiresolution,Coiflets-4
+Symlets-4,0.3,,,0.8841463327407837,NN,Multiresolution,Coiflets-4
+Symlets-4,0.3,,,0.7245935201644897,RNN,Multiresolution,Coiflets-4
+Symlets-4,0.3,,,0.8714430928230286,Bi-RNN,Multiresolution,Daubechies-4
+Symlets-4,0.3,,,0.9004064798355103,CNN,Multiresolution,Daubechies-4
+Symlets-4,0.3,,,0.8770325183868408,LSTM-CNN,Multiresolution,Daubechies-4
+Symlets-4,0.3,,,0.8907520174980164,NN,Multiresolution,Daubechies-4
+Symlets-4,0.3,,,0.7459349632263184,RNN,Multiresolution,Daubechies-4
+Symlets-4,0.3,,,0.8785569071769714,Bi-RNN,Multiresolution,D.-Mey.
+Symlets-4,0.3,,,0.9090447425842284,CNN,Multiresolution,D.-Mey.
+Symlets-4,0.3,,,0.915142297744751,LSTM-CNN,Multiresolution,D.-Mey.
+Symlets-4,0.3,,,0.8831300735473633,NN,Multiresolution,D.-Mey.
+Symlets-4,0.3,,,0.7474593520164491,RNN,Multiresolution,D.-Mey.
+Symlets-4,0.3,,,0.8917682766914368,Bi-RNN,Multiresolution,Haar
+Symlets-4,0.3,,,0.9232723712921144,CNN,Multiresolution,Haar
+Symlets-4,0.3,,,0.8993902206420898,LSTM-CNN,Multiresolution,Haar
+Symlets-4,0.3,,,0.9110772609710692,NN,Multiresolution,Haar
+Symlets-4,0.3,,,0.8262194991111755,RNN,Multiresolution,Haar
+Symlets-4,0.3,,,0.8587398529052734,Bi-RNN,Multiresolution,none
+Symlets-4,0.3,,,0.8968495726585388,CNN,Multiresolution,none
+Symlets-4,0.3,,,0.9034552574157716,LSTM-CNN,Multiresolution,none
+Symlets-4,0.3,,,0.8739837408065796,NN,Multiresolution,none
+Symlets-4,0.3,,,0.8617886304855347,RNN,Multiresolution,none
+Symlets-4,0.3,,,0.8927845358848572,Bi-RNN,Multiresolution,Symlets-4
+Symlets-4,0.3,,,0.9120935201644896,CNN,Multiresolution,Symlets-4
+Symlets-4,0.3,,,0.8836382031440735,LSTM-CNN,Multiresolution,Symlets-4
+Symlets-4,0.3,,,0.9059959053993224,NN,Multiresolution,Symlets-4
+Symlets-4,0.3,,,0.6443089246749878,RNN,Multiresolution,Symlets-4
+Coiflets-4,0.2,,,0.8414634146341463,DTC,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.8953252032520326,GBC,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.8704268336296082,NN,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.5137195121951219,KNC,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.8856707317073171,multinom. Reg.,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.8922764227642277,RFC,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.6671747967479674,SVC,Feature Extraction,Coiflets-4
+Coiflets-4,0.2,,,0.8257113821138211,DTC,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.902439024390244,GBC,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.9059959053993224,NN,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.6366869918699187,KNC,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.9070121951219512,multinom. Reg.,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.8897357723577236,RFC,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.8363821138211383,SVC,Feature Extraction,Daubechies-4
+Coiflets-4,0.2,,,0.8475609756097561,DTC,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.9044715447154472,GBC,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.8760162591934204,NN,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.5660569105691057,KNC,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.8968495934959351,multinom. Reg.,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.8958333333333334,RFC,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.7251016260162602,SVC,Feature Extraction,D.-Mey.
+Coiflets-4,0.2,,,0.8521341463414634,DTC,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.9166666666666666,GBC,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.9247967600822448,NN,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.7769308943089431,KNC,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.9258130081300812,multinom. Reg.,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.9268292682926829,Sklearn NN,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.9146341463414634,RFC,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.9110772357723578,SVC,Feature Extraction,Haar
+Coiflets-4,0.2,,,0.8373983739837398,DTC,Feature Extraction,none
+Coiflets-4,0.2,,,0.91869918699187,GBC,Feature Extraction,none
+Coiflets-4,0.2,,,0.8780487775802612,NN,Feature Extraction,none
+Coiflets-4,0.2,,,0.6920731707317073,KNC,Feature Extraction,none
+Coiflets-4,0.2,,,0.9070121951219512,multinom. Reg.,Feature Extraction,none
+Coiflets-4,0.2,,,0.38160569105691056,Sklearn NN,Feature Extraction,none
+Coiflets-4,0.2,,,0.8998983739837398,RFC,Feature Extraction,none
+Coiflets-4,0.2,,,0.8201219512195121,SVC,Feature Extraction,none
+Coiflets-4,0.2,,,0.836890243902439,DTC,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.8973577235772358,GBC,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.8988820910453796,NN,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.5579268292682927,KNC,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.9090447154471544,multinom. Reg.,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.8968495934959351,RFC,Feature Extraction,Symlets-4
+Coiflets-4,0.2,,,0.8150406504065041,SVC,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.8384146341463414,DTC,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.8943089430894309,GBC,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.8241869807243347,NN,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.4989837398373984,KNC,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.8831300813008129,multinom. Reg.,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.8932926829268293,RFC,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.6666666666666666,SVC,Feature Extraction,Coiflets-4
+Coiflets-4,0.3,,,0.8282520325203252,DTC,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.8943089430894309,GBC,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.8846544623374939,NN,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.6646341463414634,KNC,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.8978658536585366,multinom. Reg.,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.8851626016260162,RFC,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.8429878048780488,SVC,Feature Extraction,Daubechies-4
+Coiflets-4,0.3,,,0.8318089430894309,DTC,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.9034552845528456,GBC,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.8556910753250122,NN,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.5599593495934959,KNC,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.8917682926829268,multinom. Reg.,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.9014227642276422,RFC,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.7408536585365854,SVC,Feature Extraction,D.-Mey.
+Coiflets-4,0.3,,,0.8384146341463414,DTC,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.9156504065040649,GBC,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.8785569071769714,NN,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.7637195121951219,KNC,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.9110772357723578,multinom. Reg.,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.8998983739837398,Sklearn NN,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.9039634146341464,RFC,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.902439024390244,SVC,Feature Extraction,Haar
+Coiflets-4,0.3,,,0.031504065040650404,DTC,Feature Extraction,none
+Coiflets-4,0.3,,,0.004573170731707317,GBC,Feature Extraction,none
+Coiflets-4,0.3,,,0.0060975607484579095,NN,Feature Extraction,none
+Coiflets-4,0.3,,,0.03963414634146342,KNC,Feature Extraction,none
+Coiflets-4,0.3,,,0.001016260162601626,multinom. Reg.,Feature Extraction,none
+Coiflets-4,0.3,,,0.023882113821138213,Sklearn NN,Feature Extraction,none
+Coiflets-4,0.3,,,0.04369918699186992,RFC,Feature Extraction,none
+Coiflets-4,0.3,,,0.009654471544715448,SVC,Feature Extraction,none
+Coiflets-4,0.3,,,0.8277439024390244,DTC,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.8958333333333334,GBC,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.889735758304596,NN,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.5757113821138211,KNC,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.9004065040650406,multinom. Reg.,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.9065040650406504,RFC,Feature Extraction,Symlets-4
+Coiflets-4,0.3,,,0.8267276422764228,SVC,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.8302845528455285,DTC,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.8887195121951219,GBC,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.8816056847572327,NN,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.5447154471544715,KNC,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.8963414634146342,multinom. Reg.,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.8841463414634146,RFC,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.6935975609756098,SVC,Feature Extraction,Coiflets-4
+Daubechies-4,0.2,,,0.8252032520325203,DTC,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.9004065040650406,GBC,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.907520353794098,NN,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.630589430894309,KNC,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.9192073170731708,multinom. Reg.,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.8912601626016259,RFC,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.8170731707317073,SVC,Feature Extraction,Daubechies-4
+Daubechies-4,0.2,,,0.8556910569105691,DTC,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.8902439024390244,GBC,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.8511179089546204,NN,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.5858739837398373,KNC,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.899390243902439,multinom. Reg.,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.8892276422764228,RFC,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.7393292682926829,SVC,Feature Extraction,D.-Mey.
+Daubechies-4,0.2,,,0.8460365853658537,DTC,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.9110772357723578,GBC,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.8993902206420898,NN,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.7388211382113821,KNC,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.9085365853658536,multinom. Reg.,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.9039634146341464,Sklearn NN,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.9054878048780488,RFC,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.8998983739837398,SVC,Feature Extraction,Haar
+Daubechies-4,0.2,,,0.7987804878048781,DTC,Feature Extraction,none
+Daubechies-4,0.2,,,0.8816056910569106,GBC,Feature Extraction,none
+Daubechies-4,0.2,,,0.08943089097738266,NN,Feature Extraction,none
+Daubechies-4,0.2,,,0.5345528455284553,KNC,Feature Extraction,none
+Daubechies-4,0.2,,,0.8358739837398373,multinom. Reg.,Feature Extraction,none
+Daubechies-4,0.2,,,0.6829268292682927,Sklearn NN,Feature Extraction,none
+Daubechies-4,0.2,,,0.8978658536585366,RFC,Feature Extraction,none
+Daubechies-4,0.2,,,0.6824186991869918,SVC,Feature Extraction,none
+Daubechies-4,0.2,,,0.8363821138211383,DTC,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.8861788617886179,GBC,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.9009146094322203,NN,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.6173780487804879,KNC,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.9253048780487804,multinom. Reg.,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.9014227642276422,RFC,Feature Extraction,Symlets-4
+Daubechies-4,0.2,,,0.8302845528455285,SVC,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.8257113821138211,DTC,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.8861788617886179,GBC,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.8389227390289307,NN,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.5330284552845529,KNC,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.8861788617886179,multinom. Reg.,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.8810975609756098,RFC,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.6773373983739838,SVC,Feature Extraction,Coiflets-4
+Daubechies-4,0.3,,,0.8450203252032521,DTC,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.8927845528455285,GBC,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.8810975551605225,NN,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.6244918699186992,KNC,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.9176829268292684,multinom. Reg.,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.8973577235772358,RFC,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.8170731707317073,SVC,Feature Extraction,Daubechies-4
+Daubechies-4,0.3,,,0.8358739837398373,DTC,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.8841463414634146,GBC,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.8414633870124817,NN,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.5934959349593496,KNC,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.899390243902439,multinom. Reg.,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.8938008130081301,RFC,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.7342479674796748,SVC,Feature Extraction,D.-Mey.
+Daubechies-4,0.3,,,0.8353658536585366,DTC,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.9034552845528456,GBC,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.8902438879013062,NN,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.7459349593495935,KNC,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.9059959349593496,multinom. Reg.,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.8983739837398373,Sklearn NN,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.8948170731707317,RFC,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.8892276422764228,SVC,Feature Extraction,Haar
+Daubechies-4,0.3,,,0.14126016260162602,DTC,Feature Extraction,none
+Daubechies-4,0.3,,,0.012703252032520323,GBC,Feature Extraction,none
+Daubechies-4,0.3,,,0.006605691276490688,NN,Feature Extraction,none
+Daubechies-4,0.3,,,0.054878048780487805,KNC,Feature Extraction,none
+Daubechies-4,0.3,,,0.004573170731707317,multinom. Reg.,Feature Extraction,none
+Daubechies-4,0.3,,,0.2627032520325203,Sklearn NN,Feature Extraction,none
+Daubechies-4,0.3,,,0.2779471544715447,RFC,Feature Extraction,none
+Daubechies-4,0.3,,,0.018292682926829267,SVC,Feature Extraction,none
+Daubechies-4,0.3,,,0.8323170731707317,DTC,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.8912601626016259,GBC,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.9024389982223512,NN,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.6244918699186992,KNC,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.9151422764227642,multinom. Reg.,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.9004065040650406,RFC,Feature Extraction,Symlets-4
+Daubechies-4,0.3,,,0.8114837398373984,SVC,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.8170731707317073,DTC,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.8871951219512195,GBC,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.8714430928230286,NN,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.5619918699186992,KNC,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.8963414634146342,multinom. Reg.,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.8882113821138211,RFC,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.6839430894308943,SVC,Feature Extraction,Coiflets-4
+D.-Mey.,0.2,,,0.8302845528455285,DTC,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.8963414634146342,GBC,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.889735758304596,NN,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.5010162601626016,KNC,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.9080284552845528,multinom. Reg.,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.8907520325203252,RFC,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.8038617886178862,SVC,Feature Extraction,Daubechies-4
+D.-Mey.,0.2,,,0.8043699186991871,DTC,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.899390243902439,GBC,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.8658536672592163,NN,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.5889227642276422,KNC,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.9120934959349594,multinom. Reg.,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.9105691056910568,RFC,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.7083333333333334,SVC,Feature Extraction,D.-Mey.
+D.-Mey.,0.2,,,0.8485772357723578,DTC,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.9085365853658536,GBC,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.9095528721809388,NN,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.7566056910569106,KNC,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.9212398373983741,multinom. Reg.,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.9095528455284552,Sklearn NN,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.91869918699187,RFC,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.9049796747967479,SVC,Feature Extraction,Haar
+D.-Mey.,0.2,,,0.10365853658536583,DTC,Feature Extraction,none
+D.-Mey.,0.2,,,0.0040650406504065045,GBC,Feature Extraction,none
+D.-Mey.,0.2,,,0.07469512522220613,NN,Feature Extraction,none
+D.-Mey.,0.2,,,0.008130081300813009,KNC,Feature Extraction,none
+D.-Mey.,0.2,,,0.005589430894308943,multinom. Reg.,Feature Extraction,none
+D.-Mey.,0.2,,,0.07063008130081301,Sklearn NN,Feature Extraction,none
+D.-Mey.,0.2,,,0.3617886178861789,RFC,Feature Extraction,none
+D.-Mey.,0.2,,,0.0975609756097561,SVC,Feature Extraction,none
+D.-Mey.,0.2,,,0.8170731707317073,DTC,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.9075203252032521,GBC,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.8988820910453796,NN,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.5238821138211383,KNC,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.9085365853658536,multinom. Reg.,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.8917682926829268,RFC,Feature Extraction,Symlets-4
+D.-Mey.,0.2,,,0.8008130081300813,SVC,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.8079268292682927,DTC,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.8800813008130082,GBC,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.8501016497612,NN,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.5553861788617886,KNC,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.8841463414634146,multinom. Reg.,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.8938008130081301,RFC,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.6707317073170732,SVC,Feature Extraction,Coiflets-4
+D.-Mey.,0.3,,,0.8175813008130082,DTC,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.8866869918699187,GBC,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.889735758304596,NN,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.5223577235772358,KNC,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.8973577235772358,multinom. Reg.,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.8887195121951219,RFC,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.7952235772357723,SVC,Feature Extraction,Daubechies-4
+D.-Mey.,0.3,,,0.8313008130081301,DTC,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.8983739837398373,GBC,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.8556910753250122,NN,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.5558943089430894,KNC,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.8988821138211383,multinom. Reg.,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.9115853658536586,RFC,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.7225609756097561,SVC,Feature Extraction,D.-Mey.
+D.-Mey.,0.3,,,0.8079268292682927,DTC,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.9029471544715448,GBC,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.8988820910453796,NN,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.7296747967479674,KNC,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.9136178861788616,multinom. Reg.,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.8978658536585366,Sklearn NN,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.913109756097561,RFC,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.8902439024390244,SVC,Feature Extraction,Haar
+D.-Mey.,0.3,,,0.8089430894308943,DTC,Feature Extraction,none
+D.-Mey.,0.3,,,0.9054878048780488,GBC,Feature Extraction,none
+D.-Mey.,0.3,,,0.834857702255249,NN,Feature Extraction,none
+D.-Mey.,0.3,,,0.6697154471544715,KNC,Feature Extraction,none
+D.-Mey.,0.3,,,0.8887195121951219,multinom. Reg.,Feature Extraction,none
+D.-Mey.,0.3,,,0.3775406504065041,Sklearn NN,Feature Extraction,none
+D.-Mey.,0.3,,,0.9034552845528456,RFC,Feature Extraction,none
+D.-Mey.,0.3,,,0.8180894308943092,SVC,Feature Extraction,none
+D.-Mey.,0.3,,,0.8135162601626016,DTC,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.9029471544715448,GBC,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.880081295967102,NN,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.5370934959349594,KNC,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.9059959349593496,multinom. Reg.,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.9039634146341464,RFC,Feature Extraction,Symlets-4
+D.-Mey.,0.3,,,0.7947154471544715,SVC,Feature Extraction,Symlets-4
+Haar,0.2,,,0.8135162601626016,DTC,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.8790650406504065,GBC,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.8770325183868408,NN,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.5309959349593496,KNC,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.8841463414634146,multinom. Reg.,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.8678861788617886,RFC,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.7581300813008129,SVC,Feature Extraction,Coiflets-4
+Haar,0.2,,,0.8094512195121951,DTC,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.8744918699186992,GBC,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.9034552574157716,NN,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.6183943089430894,KNC,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.9110772357723578,multinom. Reg.,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.6585365853658537,Sklearn NN,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.8805894308943092,RFC,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.8932926829268293,SVC,Feature Extraction,Daubechies-4
+Haar,0.2,,,0.7992886178861789,DTC,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.8694105691056908,GBC,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.8734756112098694,NN,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.5625,KNC,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.9014227642276422,multinom. Reg.,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.8709349593495935,RFC,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.7372967479674797,SVC,Feature Extraction,D.-Mey.
+Haar,0.2,,,0.8262195121951219,DTC,Feature Extraction,Haar
+Haar,0.2,,,0.8887195121951219,GBC,Feature Extraction,Haar
+Haar,0.2,,,0.8846544623374939,NN,Feature Extraction,Haar
+Haar,0.2,,,0.7276422764227642,KNC,Feature Extraction,Haar
+Haar,0.2,,,0.9126016260162602,multinom. Reg.,Feature Extraction,Haar
+Haar,0.2,,,0.8744918699186992,Sklearn NN,Feature Extraction,Haar
+Haar,0.2,,,0.9014227642276422,RFC,Feature Extraction,Haar
+Haar,0.2,,,0.9075203252032521,SVC,Feature Extraction,Haar
+Haar,0.2,,,0.7662601626016259,DTC,Feature Extraction,none
+Haar,0.2,,,0.8978658536585366,GBC,Feature Extraction,none
+Haar,0.2,,,0.1895325183868408,NN,Feature Extraction,none
+Haar,0.2,,,0.5355691056910569,KNC,Feature Extraction,none
+Haar,0.2,,,0.2657520325203252,multinom. Reg.,Feature Extraction,none
+Haar,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,none
+Haar,0.2,,,0.9065040650406504,RFC,Feature Extraction,none
+Haar,0.2,,,0.19054878048780488,SVC,Feature Extraction,none
+Haar,0.2,,,0.8297764227642277,DTC,Feature Extraction,Symlets-4
+Haar,0.2,,,0.8800813008130082,GBC,Feature Extraction,Symlets-4
+Haar,0.2,,,0.9105691313743592,NN,Feature Extraction,Symlets-4
+Haar,0.2,,,0.6244918699186992,KNC,Feature Extraction,Symlets-4
+Haar,0.2,,,0.9034552845528456,multinom. Reg.,Feature Extraction,Symlets-4
+Haar,0.2,,,0.6534552845528455,Sklearn NN,Feature Extraction,Symlets-4
+Haar,0.2,,,0.8790650406504065,RFC,Feature Extraction,Symlets-4
+Haar,0.2,,,0.8805894308943092,SVC,Feature Extraction,Symlets-4
+Haar,0.3,,,0.8180894308943092,DTC,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.8826219512195121,GBC,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.8582317233085632,NN,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.4710365853658536,KNC,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.8866869918699187,multinom. Reg.,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.8836382113821138,RFC,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.7322154471544715,SVC,Feature Extraction,Coiflets-4
+Haar,0.3,,,0.8175813008130082,DTC,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.8770325203252033,GBC,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.8744918704032898,NN,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.6275406504065041,KNC,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.8846544715447154,multinom. Reg.,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.8826219512195121,RFC,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.8633130081300813,SVC,Feature Extraction,Daubechies-4
+Haar,0.3,,,0.8125,DTC,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.8810975609756098,GBC,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.8658536672592163,NN,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.5005081300813008,KNC,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.8978658536585366,multinom. Reg.,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.8734756097560976,RFC,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.7322154471544715,SVC,Feature Extraction,D.-Mey.
+Haar,0.3,,,0.8206300813008129,DTC,Feature Extraction,Haar
+Haar,0.3,,,0.8841463414634146,GBC,Feature Extraction,Haar
+Haar,0.3,,,0.8810975551605225,NN,Feature Extraction,Haar
+Haar,0.3,,,0.7347560975609756,KNC,Feature Extraction,Haar
+Haar,0.3,,,0.8922764227642277,multinom. Reg.,Feature Extraction,Haar
+Haar,0.3,,,0.9019308943089432,Sklearn NN,Feature Extraction,Haar
+Haar,0.3,,,0.8882113821138211,RFC,Feature Extraction,Haar
+Haar,0.3,,,0.8851626016260162,SVC,Feature Extraction,Haar
+Haar,0.3,,,0.2484756097560976,DTC,Feature Extraction,none
+Haar,0.3,,,0.08943089430894309,GBC,Feature Extraction,none
+Haar,0.3,,,0.14329268038272858,NN,Feature Extraction,none
+Haar,0.3,,,0.007621951219512195,KNC,Feature Extraction,none
+Haar,0.3,,,0.08739837398373984,multinom. Reg.,Feature Extraction,none
+Haar,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,none
+Haar,0.3,,,0.2886178861788618,RFC,Feature Extraction,none
+Haar,0.3,,,0.19054878048780488,SVC,Feature Extraction,none
+Haar,0.3,,,0.8160569105691057,DTC,Feature Extraction,Symlets-4
+Haar,0.3,,,0.8790650406504065,GBC,Feature Extraction,Symlets-4
+Haar,0.3,,,0.8866869807243347,NN,Feature Extraction,Symlets-4
+Haar,0.3,,,0.6112804878048781,KNC,Feature Extraction,Symlets-4
+Haar,0.3,,,0.8902439024390244,multinom. Reg.,Feature Extraction,Symlets-4
+Haar,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Haar,0.3,,,0.8826219512195121,RFC,Feature Extraction,Symlets-4
+Haar,0.3,,,0.8480691056910569,SVC,Feature Extraction,Symlets-4
+Median,0.2,,,0.8607723577235772,DTC,Feature Extraction,Coiflets-4
+Median,0.2,,,0.9308943089430894,GBC,Feature Extraction,Coiflets-4
+Median,0.2,,,0.8546748161315918,NN,Feature Extraction,Coiflets-4
+Median,0.2,,,0.6814024390243902,KNC,Feature Extraction,Coiflets-4
+Median,0.2,,,0.9222560975609756,multinom. Reg.,Feature Extraction,Coiflets-4
+Median,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Median,0.2,,,0.929878048780488,RFC,Feature Extraction,Coiflets-4
+Median,0.2,,,0.7550813008130082,SVC,Feature Extraction,Coiflets-4
+Median,0.2,,,0.8714430894308943,DTC,Feature Extraction,Daubechies-4
+Median,0.2,,,0.9405487804878048,GBC,Feature Extraction,Daubechies-4
+Median,0.2,,,0.9329268336296082,NN,Feature Extraction,Daubechies-4
+Median,0.2,,,0.6178861788617886,KNC,Feature Extraction,Daubechies-4
+Median,0.2,,,0.9385162601626016,multinom. Reg.,Feature Extraction,Daubechies-4
+Median,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Median,0.2,,,0.9303861788617886,RFC,Feature Extraction,Daubechies-4
+Median,0.2,,,0.8734756097560976,SVC,Feature Extraction,Daubechies-4
+Median,0.2,,,0.8602642276422764,DTC,Feature Extraction,D.-Mey.
+Median,0.2,,,0.9293699186991871,GBC,Feature Extraction,D.-Mey.
+Median,0.2,,,0.8729674816131592,NN,Feature Extraction,D.-Mey.
+Median,0.2,,,0.7225609756097561,KNC,Feature Extraction,D.-Mey.
+Median,0.2,,,0.9202235772357724,multinom. Reg.,Feature Extraction,D.-Mey.
+Median,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Median,0.2,,,0.9314024390243902,RFC,Feature Extraction,D.-Mey.
+Median,0.2,,,0.7835365853658537,SVC,Feature Extraction,D.-Mey.
+Median,0.2,,,0.8841463414634146,DTC,Feature Extraction,Haar
+Median,0.2,,,0.9466463414634146,GBC,Feature Extraction,Haar
+Median,0.2,,,0.9014227390289308,NN,Feature Extraction,Haar
+Median,0.2,,,0.7835365853658537,KNC,Feature Extraction,Haar
+Median,0.2,,,0.9364837398373984,multinom. Reg.,Feature Extraction,Haar
+Median,0.2,,,0.902439024390244,Sklearn NN,Feature Extraction,Haar
+Median,0.2,,,0.9435975609756098,RFC,Feature Extraction,Haar
+Median,0.2,,,0.9136178861788616,SVC,Feature Extraction,Haar
+Median,0.2,,,0.8501016260162602,DTC,Feature Extraction,none
+Median,0.2,,,0.9212398373983741,GBC,Feature Extraction,none
+Median,0.2,,,0.8628048896789551,NN,Feature Extraction,none
+Median,0.2,,,0.7433943089430894,KNC,Feature Extraction,none
+Median,0.2,,,0.9339430894308944,multinom. Reg.,Feature Extraction,none
+Median,0.2,,,0.6585365853658537,Sklearn NN,Feature Extraction,none
+Median,0.2,,,0.9217479674796748,RFC,Feature Extraction,none
+Median,0.2,,,0.8485772357723578,SVC,Feature Extraction,none
+Median,0.2,,,0.8495934959349594,DTC,Feature Extraction,Symlets-4
+Median,0.2,,,0.9415650406504064,GBC,Feature Extraction,Symlets-4
+Median,0.2,,,0.9334349632263184,NN,Feature Extraction,Symlets-4
+Median,0.2,,,0.5401422764227642,KNC,Feature Extraction,Symlets-4
+Median,0.2,,,0.9425813008130082,multinom. Reg.,Feature Extraction,Symlets-4
+Median,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Median,0.2,,,0.9334349593495936,RFC,Feature Extraction,Symlets-4
+Median,0.2,,,0.8592479674796748,SVC,Feature Extraction,Symlets-4
+none,0.2,,,0.8668699186991871,DTC,Feature Extraction,Coiflets-4
+none,0.2,,,0.929878048780488,GBC,Feature Extraction,Coiflets-4
+none,0.2,,,0.8709349632263184,NN,Feature Extraction,Coiflets-4
+none,0.2,,,0.6661585365853658,KNC,Feature Extraction,Coiflets-4
+none,0.2,,,0.9278455284552846,multinom. Reg.,Feature Extraction,Coiflets-4
+none,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+none,0.2,,,0.9293699186991871,RFC,Feature Extraction,Coiflets-4
+none,0.2,,,0.7555894308943092,SVC,Feature Extraction,Coiflets-4
+none,0.2,,,0.8810975609756098,DTC,Feature Extraction,Daubechies-4
+none,0.2,,,0.9405487804878048,GBC,Feature Extraction,Daubechies-4
+none,0.2,,,0.922764241695404,NN,Feature Extraction,Daubechies-4
+none,0.2,,,0.6204268292682927,KNC,Feature Extraction,Daubechies-4
+none,0.2,,,0.9441056910569106,multinom. Reg.,Feature Extraction,Daubechies-4
+none,0.2,,,0.18953252032520326,Sklearn NN,Feature Extraction,Daubechies-4
+none,0.2,,,0.9354674796747968,RFC,Feature Extraction,Daubechies-4
+none,0.2,,,0.8780487804878049,SVC,Feature Extraction,Daubechies-4
+none,0.2,,,0.8775406504065041,DTC,Feature Extraction,D.-Mey.
+none,0.2,,,0.9364837398373984,GBC,Feature Extraction,D.-Mey.
+none,0.2,,,0.8495935201644897,NN,Feature Extraction,D.-Mey.
+none,0.2,,,0.7306910569105691,KNC,Feature Extraction,D.-Mey.
+none,0.2,,,0.923780487804878,multinom. Reg.,Feature Extraction,D.-Mey.
+none,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+none,0.2,,,0.9268292682926829,RFC,Feature Extraction,D.-Mey.
+none,0.2,,,0.7972560975609756,SVC,Feature Extraction,D.-Mey.
+none,0.2,,,0.8902439024390244,DTC,Feature Extraction,Haar
+none,0.2,,,0.9415650406504064,GBC,Feature Extraction,Haar
+none,0.2,,,0.8963414430618286,NN,Feature Extraction,Haar
+none,0.2,,,0.7723577235772358,KNC,Feature Extraction,Haar
+none,0.2,,,0.9364837398373984,multinom. Reg.,Feature Extraction,Haar
+none,0.2,,,0.8836382113821138,Sklearn NN,Feature Extraction,Haar
+none,0.2,,,0.9405487804878048,RFC,Feature Extraction,Haar
+none,0.2,,,0.9095528455284552,SVC,Feature Extraction,Haar
+none,0.2,,,0.8465447154471545,DTC,Feature Extraction,none
+none,0.2,,,0.9354674796747968,GBC,Feature Extraction,none
+none,0.2,,,0.1356707364320755,NN,Feature Extraction,none
+none,0.2,,,0.7515243902439024,KNC,Feature Extraction,none
+none,0.2,,,0.14634146341463414,multinom. Reg.,Feature Extraction,none
+none,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,none
+none,0.2,,,0.9268292682926829,RFC,Feature Extraction,none
+none,0.2,,,0.8775406504065041,SVC,Feature Extraction,none
+none,0.2,,,0.8323170731707317,DTC,Feature Extraction,Symlets-4
+none,0.2,,,0.9471544715447154,GBC,Feature Extraction,Symlets-4
+none,0.2,,,0.920223593711853,NN,Feature Extraction,Symlets-4
+none,0.2,,,0.5315040650406504,KNC,Feature Extraction,Symlets-4
+none,0.2,,,0.9466463414634146,multinom. Reg.,Feature Extraction,Symlets-4
+none,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+none,0.2,,,0.9339430894308944,RFC,Feature Extraction,Symlets-4
+none,0.2,,,0.8617886178861789,SVC,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.8358739837398373,DTC,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.8877032520325203,GBC,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.8678861856460571,NN,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.5320121951219512,KNC,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.8973577235772358,multinom. Reg.,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.8866869918699187,RFC,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.6986788617886179,SVC,Feature Extraction,Coiflets-4
+Symlets-4,0.2,,,0.8445121951219512,DTC,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.8897357723577236,GBC,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.9019308686256408,NN,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.6554878048780488,KNC,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.9207317073170732,multinom. Reg.,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.8805894308943092,RFC,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.8419715447154471,SVC,Feature Extraction,Daubechies-4
+Symlets-4,0.2,,,0.8389227642276422,DTC,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.9014227642276422,GBC,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.8617886304855347,NN,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.573170731707317,KNC,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.8998983739837398,multinom. Reg.,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.8907520325203252,RFC,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.7296747967479674,SVC,Feature Extraction,D.-Mey.
+Symlets-4,0.2,,,0.8567073170731707,DTC,Feature Extraction,Haar
+Symlets-4,0.2,,,0.9049796747967479,GBC,Feature Extraction,Haar
+Symlets-4,0.2,,,0.8821138143539429,NN,Feature Extraction,Haar
+Symlets-4,0.2,,,0.7439024390243902,KNC,Feature Extraction,Haar
+Symlets-4,0.2,,,0.9161585365853658,multinom. Reg.,Feature Extraction,Haar
+Symlets-4,0.2,,,0.9151422764227642,Sklearn NN,Feature Extraction,Haar
+Symlets-4,0.2,,,0.9115853658536586,RFC,Feature Extraction,Haar
+Symlets-4,0.2,,,0.9115853658536586,SVC,Feature Extraction,Haar
+Symlets-4,0.2,,,0.8277439024390244,DTC,Feature Extraction,none
+Symlets-4,0.2,,,0.8836382113821138,GBC,Feature Extraction,none
+Symlets-4,0.2,,,0.7850610017776489,NN,Feature Extraction,none
+Symlets-4,0.2,,,0.6559959349593496,KNC,Feature Extraction,none
+Symlets-4,0.2,,,0.9004065040650406,multinom. Reg.,Feature Extraction,none
+Symlets-4,0.2,,,0.4583333333333333,Sklearn NN,Feature Extraction,none
+Symlets-4,0.2,,,0.8932926829268293,RFC,Feature Extraction,none
+Symlets-4,0.2,,,0.7906504065040649,SVC,Feature Extraction,none
+Symlets-4,0.2,,,0.8541666666666666,DTC,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.8978658536585366,GBC,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.8871951103210449,NN,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.6168699186991871,KNC,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.9136178861788616,multinom. Reg.,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.8932926829268293,RFC,Feature Extraction,Symlets-4
+Symlets-4,0.2,,,0.8155487804878049,SVC,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.8333333333333334,DTC,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.8897357723577236,GBC,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.855182945728302,NN,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.5208333333333334,KNC,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.8831300813008129,multinom. Reg.,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.8892276422764228,RFC,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.6834349593495935,SVC,Feature Extraction,Coiflets-4
+Symlets-4,0.3,,,0.8257113821138211,DTC,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.8882113821138211,GBC,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.9126016497612,NN,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.6473577235772358,KNC,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.9105691056910568,multinom. Reg.,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.8866869918699187,RFC,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.8135162601626016,SVC,Feature Extraction,Daubechies-4
+Symlets-4,0.3,,,0.8414634146341463,DTC,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.9019308943089432,GBC,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.8252032399177551,NN,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.5584349593495935,KNC,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.9009146341463414,multinom. Reg.,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.8846544715447154,RFC,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.7159552845528455,SVC,Feature Extraction,D.-Mey.
+Symlets-4,0.3,,,0.8328252032520326,DTC,Feature Extraction,Haar
+Symlets-4,0.3,,,0.9065040650406504,GBC,Feature Extraction,Haar
+Symlets-4,0.3,,,0.8816056847572327,NN,Feature Extraction,Haar
+Symlets-4,0.3,,,0.7530487804878049,KNC,Feature Extraction,Haar
+Symlets-4,0.3,,,0.9192073170731708,multinom. Reg.,Feature Extraction,Haar
+Symlets-4,0.3,,,0.8968495934959351,Sklearn NN,Feature Extraction,Haar
+Symlets-4,0.3,,,0.9049796747967479,RFC,Feature Extraction,Haar
+Symlets-4,0.3,,,0.8892276422764228,SVC,Feature Extraction,Haar
+Symlets-4,0.3,,,0.06504065040650407,DTC,Feature Extraction,none
+Symlets-4,0.3,,,0.009654471544715448,GBC,Feature Extraction,none
+Symlets-4,0.3,,,0.08587398380041122,NN,Feature Extraction,none
+Symlets-4,0.3,,,0.10264227642276423,KNC,Feature Extraction,none
+Symlets-4,0.3,,,0.001524390243902439,multinom. Reg.,Feature Extraction,none
+Symlets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,none
+Symlets-4,0.3,,,0.047764227642276426,RFC,Feature Extraction,none
+Symlets-4,0.3,,,0.014227642276422762,SVC,Feature Extraction,none
+Symlets-4,0.3,,,0.8389227642276422,DTC,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.8866869918699187,GBC,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.8709349632263184,NN,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.6051829268292683,KNC,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.9085365853658536,multinom. Reg.,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.1880081300813008,Sklearn NN,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.8902439024390244,RFC,Feature Extraction,Symlets-4
+Symlets-4,0.3,,,0.8008130081300813,SVC,Feature Extraction,Symlets-4
+,,,,0.9096905124302384,DTC,org. Feat. Ext.,
+,,,,0.947742262810756,GBC,org. Feat. Ext.,
+,,,,0.9558599591255188,NN,org. Feat. Ext.,
+,,,,0.7813292744799594,KNC,org. Feat. Ext.,
+,,,,0.9705733130390664,multinom. Reg.,org. Feat. Ext.,
+,,,,0.9528158295281582,Sklearn NN,org. Feat. Ext.,
+,,,,0.95636732623034,RFC,org. Feat. Ext.,
+,,,,0.9604261796042618,SVC,org. Feat. Ext.,

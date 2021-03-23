@@ -1,0 +1,20 @@
+\begin{tabular}{llrrrr}
+\toprule
+    &                 &  median RMSE &    RMSE\_iqr &  median SMAPE &  SMAPE\_iqr \\
+model & maj\_prep &              &             &               &            \\
+\midrule
+ARIMA & baseline &   738.736224 &    0.000000 &     77.078693 &   0.000000 \\
+RFR & multiresolution &  1232.994632 &    5.680089 &     12.275056 &   0.196409 \\
+CNN & multiresolution &  1264.508698 &   51.112332 &     13.277548 &   0.775055 \\
+NN & multiresolution &  1277.785375 &    7.858523 &     13.457280 &   0.095140 \\
+    & denoising &  1290.280206 &   28.727466 &     13.680545 &   0.209592 \\
+CNN & denoising &  1309.762281 &   62.754894 &     14.108509 &   1.374528 \\
+RFR & denoising &  1335.539991 &  160.672735 &     13.985533 &   2.608262 \\
+DTR & multiresolution &  1793.179541 &   56.986714 &     17.403203 &   0.366574 \\
+    & denoising &  2150.641037 &  585.026244 &     21.322216 &   5.515836 \\
+SVR & denoising &  2377.796901 &    4.151135 &     23.114970 &   0.088712 \\
+    & multiresolution &  2536.244707 &  129.432358 &     26.415080 &   2.487325 \\
+RNN & denoising &  5780.957460 &  101.213565 &    123.368875 &   9.688638 \\
+    & multiresolution &  6008.797750 &  205.553907 &    150.318774 &  28.505949 \\
+\bottomrule
+\end{tabular}

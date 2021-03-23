@@ -21,7 +21,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix, classification_report
-from joblib import dump, load
+from joblib import load
 
 np.random.seed(42)
 rn.seed(42)
@@ -91,7 +91,7 @@ def plot_cwt_confusion(denoise_dwt_wavelet, denoise_thresh, cwt_wavelet, cwt_sca
     print(classification_report(true_test, predictions, target_names=y_classes))
     test_plt_conf(cm=conf_matrix, classes = y_classes)
 
-
+# won't work without the data
 # best cwt cnn model    
 plot_cwt_confusion(denoise_dwt_wavelet="noisy", denoise_thresh=0.2, cwt_wavelet="morl", cwt_scale=128)
 

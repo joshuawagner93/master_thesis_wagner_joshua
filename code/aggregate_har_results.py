@@ -244,6 +244,7 @@ test_full_results['dwt_multi_wavelet'] = test_full_results['dwt_multi_wavelet'].
 test_full_results['dwt_multi_wavelet'] = test_full_results['dwt_multi_wavelet'].replace(['db4'],'Daubechies-4')
 test_full_results['dwt_multi_wavelet'] = test_full_results['dwt_multi_wavelet'].replace(['dmey'],'D.-Mey.')
 test_full_results['dwt_multi_wavelet'] = test_full_results['dwt_multi_wavelet'].replace(['sym4'],'Symlets-4')
+#test_full_results.to_csv("./aggregated_results/har/full_results.csv", index=False)
 
 
 

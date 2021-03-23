@@ -37,7 +37,7 @@ ax2.plot(t,y2)
 ax1.set(ylabel="Signal Amplitude")
 ax2.set(ylabel='Signal Amplitude', xlabel="Time[s]")
 fig.show()
-fig.savefig("../masters_thesis/images/sine_waves_10_50")
+#fig.savefig("../masters_thesis/images/sine_waves_10_50")
 
 
 y = y1+y2
@@ -66,7 +66,7 @@ ax2.plot(fr, y_m)
 ax2.set_xlim(0,80)
 ax2.set(ylabel='Frequency Magnitude',xlabel='Frequency [Hz]')
 fig.show()
-fig.savefig("../masters_thesis/images/ts_freq_example")
+#fig.savefig("../masters_thesis/images/ts_freq_example")
 
 
 # stft plots at different resolutions
@@ -85,14 +85,15 @@ axs[1].set(xlabel="Time[s]", title="Size=0.5s")
 im3 = axs[2].pcolormesh(t2, fs2, np.abs(Zxx2), vmin=0, vmax=1, shading='auto',cmap="jet")
 axs[2].yaxis.tick_right()
 axs[2].set(xlabel="Time[s]", title="Size=1s")
-fig.colorbar(im1, ax=axs[2])
+clb = plt.colorbar(im1, ax=axs[2])
+clb.set_label("Abs. Value of the STFT coefficients")
 fig.show()
 fig.savefig("../masters_thesis/images/stft_example")
 
 
 
 # cwt example, lower frequency plots for cwt analysis
-scales = np.arange(1,100,1)
+scales = np.arange(1,150,1)
 waveletname = 'morl'
 coeff, freq = pywt.cwt(y, scales, waveletname,1)
 
@@ -112,6 +113,3 @@ fig.savefig("../masters_thesis/images/cwt_example")
 
 # test_f is a mapping from scales to pseudo-frequencies
 test_f = pywt.scale2frequency(waveletname, scales)/ (1/Fs)
-
-
-# dwt example

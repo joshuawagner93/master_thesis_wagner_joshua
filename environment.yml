@@ -1,9 +1,8 @@
-name: base
+name: conda_ma_wagner
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - _anaconda_depends=2019.03=py37_0
   - _ipyw_jlab_nb_ext_conf=0.1.0=py37_0
   - _tflow_select=2.2.0=eigen
   - aiohttp=3.6.3=py37he774522_0

@@ -87,7 +87,7 @@ forecasting_full_results.reset_index(inplace=True, drop=True)
 ax = sns.boxplot(y=forecasting_full_results["RMSE"], x = forecasting_full_results["model"])
 ax = sns.boxplot(y=forecasting_full_results["SMAPE"], x = forecasting_full_results["model"])
 
-
+# plots are too small to really let show much
 ax = sns.boxplot(y=forecasting_full_results["SMAPE"], x = forecasting_full_results["model"], hue = forecasting_full_results["maj_prep"])
 ax.set(xlabel='Model', ylabel='SMAPE')
 ax.legend(title="Preprocessing")
@@ -115,4 +115,19 @@ grouped_full_results_models.sort_values(by=["median RMSE"], inplace=True, ascend
 
 
 noisy_results = forecasting_full_results[forecasting_full_results["dwt_multi_wavelet"] == "noisy"]
-# noisy_results.to_latex("./aggregated_results/m4/results_noisy_models.tex", columns=["model", "RMSE", "SMAPE"])
+noisy_results.sort_values(by=["RMSE"], inplace=True, ascending=True)
+#noisy_results.to_latex("./aggregated_results/m4/results_noisy_models.tex", columns=["model", "RMSE", "SMAPE"], index=False)
+
+
+grouped_results_model_prep = forecasting_full_results.groupby(by=["model","maj_prep"]).median()
+grouped_results_model_prep["RMSE_q25"] = forecasting_full_results.groupby(by=["model","maj_prep"])["RMSE"].quantile(q=0.25)
+grouped_results_model_prep["SMAPE_q25"] = forecasting_full_results.groupby(by=["model","maj_prep"])["SMAPE"].quantile(q=0.25)
+grouped_results_model_prep["RMSE_q75"] = forecasting_full_results.groupby(by=["model","maj_prep"])["RMSE"].quantile(q=0.75)
+grouped_results_model_prep["SMAPE_q75"] = forecasting_full_results.groupby(by=["model","maj_prep"])["SMAPE"].quantile(q=0.75)
+grouped_results_model_prep["RMSE_iqr"] = grouped_results_model_prep["RMSE_q75"] - grouped_results_model_prep["RMSE_q25"]
+grouped_results_model_prep["SMAPE_iqr"] = grouped_results_model_prep["SMAPE_q75"] - grouped_results_model_prep["SMAPE_q25"]
+grouped_results_model_prep.rename({"RMSE" : "median RMSE"}, inplace=True, axis=1)
+grouped_results_model_prep.rename({"SMAPE" : "median SMAPE"}, inplace=True, axis=1)
+grouped_results_model_prep = grouped_results_model_prep[["median RMSE", "median SMAPE", "RMSE_iqr", "SMAPE_iqr"]]
+grouped_results_model_prep.sort_values(by=["median RMSE"], inplace=True, ascending=True)
+#grouped_results_model_prep.to_latex("./aggregated_results/m4/results_grouped_models_prep.tex",index = True, index_names=True, columns=["median RMSE","RMSE_iqr","median SMAPE" ,"SMAPE_iqr"])

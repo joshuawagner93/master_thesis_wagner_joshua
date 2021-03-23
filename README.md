@@ -5,7 +5,8 @@
  - with conda: either:
     - conda create --name <env_name> --file conda_requirements.txt
     - conda env create -f environment.yml
- - the conda create from environment.yml file contains the env name, in my case the base environment, change this to any name you want so it won't mess with your base env.
+ - the conda create from environment.yml file contains the env name conda_ma_wagner
+ - conda create from environment.yml file is tested and should work on any windows machine
 
 ### !!! Original Datasets are zipped for upload !!! 
 
